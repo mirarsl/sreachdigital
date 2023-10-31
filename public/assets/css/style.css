@@ -272,37 +272,37 @@ ul {
   color: #ffffff;
 }
 .bg1 {
-  background: url(assets/images/bg/ser-bg1.png);
+  background: url(/assets/images/bg/ser-bg1.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg2 {
-  background: url(assets/images/bg/port-bg1.png);
+  background: url(/assets/images/bg/port-bg1.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg3 {
-  background: url(assets/images/bg/faq-bg1.png);
+  background: url(/assets/images/bg/faq-bg1.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg4 {
-  background: url(assets/images/bg/price-bg1.png);
+  background: url(/assets/images/bg/price-bg1.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg5 {
-  background: url(assets/images/bg/ser-bg2.png);
+  background: url(/assets/images/bg/ser-bg2.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .offwrap {
-  cursor: url(assets/images/close.png), auto;
+  cursor: url(/assets/images/close.png), auto;
   width: 100%;
   left: 100%;
   transition: all 0.8s ease-out 0s;
@@ -863,20 +863,20 @@ blockquote p {
   border-radius: 15px 15px 15px 15px;
 }
 .readon.red:hover {
-  background-color: #FF254C;
+  background-color: #396ca8;
   color: #ffffff;
 }
 .readon.red.get-bdr {
   font-family: "Jost", Sans-serif;
   padding: 21px 45px 21px 45px;
   background-color: #FFFFFF;
-  color: #ff254c;
+  color: #396ca8;
   border-style: solid;
   border-width: 2px 2px 2px 2px;
   border-radius: 15px 15px 15px 15px;
 }
 .readon.red.get-bdr:hover {
-  background-color: #ff254c;
+  background-color: #396ca8;
   color: #fff;
 }
 .readon.red.get-bdr.red-black {
@@ -908,7 +908,7 @@ blockquote p {
 }
 .readon.red.learn {
   padding: 21px 36px 21px 36px;
-  background-color: #FF254C;
+  background-color: #396ca8;
   border-radius: 15px 15px 15px 15px;
   font-family: "Jost", Sans-serif;
 }
@@ -932,11 +932,11 @@ blockquote p {
 .readon.red.get-started2 {
   font-family: "Jost", Sans-serif;
   padding: 21px 44px 21px 44px;
-  background-color: #FE3243;
+  background-color: #396ca8;
   border-radius: 50px 50px 50px 50px;
 }
 .readon.red.get-started2:hover {
-  background-color: #FC5563;
+  background-color: #396ca8;
   color: #ffffff;
 }
 .readon.red.cta-contact {
@@ -1126,7 +1126,7 @@ blockquote p {
   color: #ffffff;
 }
 .readon.orange-hire.get-red {
-  background-color: #ff254c;
+  background-color: #396ca8;
   padding: 22px 43px 22px 43px;
 }
 .readon.orange-hire.get-red:hover {
@@ -1277,8 +1277,8 @@ blockquote p {
 }
 .project-button.pro-btn3 a:hover {
   color: #ffffff;
-  background: #ff254c;
-  border-color: #ff254c;
+  background: #396ca8;
+  border-color: #396ca8;
 }
 .project-button.pro-btn3 a:hover i:before {
   color: #ffffff;
@@ -1380,8 +1380,8 @@ blockquote p {
 }
 .project-button.blog-btn1 a:hover {
   color: #ffffff;
-  background: #ff254c;
-  border-color: #ff254c;
+  background: #396ca8;
+  border-color: #396ca8;
 }
 .project-button.blog-btn1 a:hover i:before {
   color: #ffffff;
@@ -1563,14 +1563,14 @@ blockquote p {
   top: 12px;
 }
 .submit-btn.submit-reds {
-  background: #FF254C;
+  background: #396ca8;
   border-radius: 15px 15px 15px 15px;
 }
 .submit-btn.submit-reds input[type="submit"] {
   border-radius: 15px 15px 15px 15px;
 }
 .submit-btn.submit-reds:hover input[type="submit"] {
-  background-color: #FF254C;
+  background-color: #396ca8;
 }
 .submit-btn.submit-reds:hover:before {
   top: 12px;
@@ -1723,13 +1723,13 @@ blockquote p {
   color: #ffffff;
 }
 .rs-videos.red-style1 .animate-border .popup-border:hover {
-  color: #ff254c;
+  color: #396ca8;
 }
 .rs-videos.red-style1 .animate-border .popup-border:hover em {
-  border-color: #ff254c;
+  border-color: #396ca8;
 }
 .rs-videos.red-style1 .animate-border .popup-border:hover em i {
-  color: #ff254c;
+  color: #396ca8;
 }
 .margin-remove {
   margin: 0 !important;
@@ -1847,7 +1847,7 @@ blockquote p {
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
-  color: #ff254c;
+  color: #396ca8;
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
   margin: 0 0 10px;
@@ -1882,7 +1882,7 @@ blockquote p {
   margin: 0;
 }
 .sec-title2 .title span {
-  color: #ff254c;
+  color: #396ca8;
 }
 .sec-title2 .title.title2 {
   position: relative;
@@ -1894,7 +1894,7 @@ blockquote p {
   border: 0;
   width: 40px;
   height: 1px;
-  background: #FF254C;
+  background: #396ca8;
   z-index: 1;
   margin-left: 0;
   left: 0;
@@ -2942,7 +2942,7 @@ body .search-modal .close:hover {
   position: relative;
 }
 .rs-about.about-style1 .about-image-wrap {
-  background-image: url(assets/images/about/style1/min.png);
+  background-image: url(/assets/images/about/style1/min.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 76% auto;
@@ -3039,7 +3039,7 @@ body .search-modal .close:hover {
   text-align: center;
 }
 .rs-about.about-style2 .address-item .address-icon i {
-  color: #FF254C !important;
+  color: #396ca8 !important;
   font-size: 29px;
   line-height: 20px;
   text-align: center;
@@ -3201,7 +3201,7 @@ body .search-modal .close:hover {
   padding: 190px 0px 100px 0px;
 }
 .rs-breadcrumbs .breadcrumbs-inner.project-inner-style1 .pro-img {
-  background-image: url(assets/images/breadcrumbs/images/circle.png);
+  background-image: url(/assets/images/breadcrumbs/images/circle.png);
   background-position: center right;
   background-repeat: no-repeat;
   background-size: 60% auto;
@@ -3222,41 +3222,41 @@ body .search-modal .close:hover {
   opacity: 0.5;
 }
 .rs-breadcrumbs.img1 {
-  background: url(assets/images/breadcrumbs/about-bg2-1.png);
+  background: url(/assets/images/breadcrumbs/about-bg2-1.png);
 }
 .rs-breadcrumbs.img2 {
   background-position: top center !important;
-  background: url(assets/images/breadcrumbs/about-bg2-2.png);
+  background: url(/assets/images/breadcrumbs/about-bg2-2.png);
 }
 .rs-breadcrumbs.img3 {
-  background: url(assets/images/breadcrumbs/service-breadcrum.png);
+  background: url(/assets/images/breadcrumbs/service-breadcrum.png);
 }
 .rs-breadcrumbs.img4 {
-  background: url(assets/images/breadcrumbs/service-details.png);
+  background: url(/assets/images/breadcrumbs/service-details.png);
 }
 .rs-breadcrumbs.img5 {
-  background: url(assets/images/breadcrumbs/team-bg1.png);
+  background: url(/assets/images/breadcrumbs/team-bg1.png);
 }
 .rs-breadcrumbs.img6 {
-  background: url(assets/images/breadcrumbs/testi-bg1.png);
+  background: url(/assets/images/breadcrumbs/testi-bg1.png);
 }
 .rs-breadcrumbs.img7 {
-  background: url(assets/images/breadcrumbs/contact-bdcms.png);
+  background: url(/assets/images/breadcrumbs/contact-bdcms.png);
   background-position: unset !important;
   background-color: #F3F1FE;
   position: relative;
 }
 .rs-breadcrumbs.img8 {
-  background: url(assets/images/breadcrumbs/contact-bdcms.png);
+  background: url(/assets/images/breadcrumbs/contact-bdcms.png);
 }
 .rs-breadcrumbs.img9 {
-  background: url(assets/images/breadcrumbs/port-bg1.png);
+  background: url(/assets/images/breadcrumbs/port-bg1.png);
 }
 /* ------------------------------------
 	07. Banner Section CSS
 ---------------------------------------*/
 .rs-banner.banner-main-home {
-  background: url(assets/images/banner/main-home/main-bg.jpg);
+  background: url(/assets/images/banner/main-home/main-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3268,7 +3268,7 @@ body .search-modal .close:hover {
 }
 .rs-banner.banner-main-home .content-wrap .title {
   font-size: 90px;
-  line-height: 1.3;
+  line-height: 1;
   font-weight: 600;
   color: #19082d;
   margin: 0 0 27px;
@@ -3294,7 +3294,7 @@ body .search-modal .close:hover {
 .rs-banner.banner-main-home .main-img {
   position: relative;
   right: -6%;
-  top: 15%;
+  top: 30%;
   z-index: 11;
 }
 .rs-banner.banner-main-home .main-img img {
@@ -3304,9 +3304,8 @@ body .search-modal .close:hover {
 }
 .rs-banner.banner-main-home .main-img .main-img-bg1 {
   position: absolute;
-  top: 17%;
-  right: -24%;
   z-index: -11;
+  top: -30%;
 }
 .rs-banner.banner-main-home .banner-animate .animation-style {
   position: absolute;
@@ -3588,7 +3587,7 @@ body .search-modal .close:hover {
   max-width: 100px;
 }
 .rs-banner.banner-style3 {
-  background: url(assets/images/banner/style3/banner-bg.jpg);
+  background: url(/assets/images/banner/style3/banner-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3639,7 +3638,7 @@ body .search-modal .close:hover {
   z-index: -11;
 }
 .rs-banner.banner-style4 {
-  background: url(assets/images/banner/style6/banner-shape.png);
+  background: url(/assets/images/banner/style6/banner-shape.png);
   background-position: top right;
   background-repeat: no-repeat;
   background-size: initial;
@@ -3711,7 +3710,7 @@ body .search-modal .close:hover {
   max-width: 70px;
 }
 .rs-banner.banner-style5 {
-  background: url(assets/images/banner/style4/banner-bg.jpg);
+  background: url(/assets/images/banner/style4/banner-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4313,7 +4312,7 @@ body .search-modal .close:hover {
   color: #ffffff;
 }
 .rs-slider.slider-style2 {
-  background-image: url(assets/images/slider/style2/slide-bg.jpg);
+  background-image: url(/assets/images/slider/style2/slide-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4477,7 +4476,7 @@ body .search-modal .close:hover {
   color: #ffffff;
 }
 .rs-slider.slider-style3 {
-  background-image: url(assets/images/slider/style3/sl-slide-bg.jpg);
+  background-image: url(/assets/images/slider/style3/sl-slide-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4637,7 +4636,7 @@ body .search-modal .close:hover {
   position: absolute;
 }
 .rs-slider.slider-style4 .slide-shape .slide-svg {
-  background-image: url(assets/images/slider/style4/subtract.png);
+  background-image: url(/assets/images/slider/style4/subtract.png);
   background-color: #fff;
   background-position: center;
 }
@@ -4765,7 +4764,7 @@ body .search-modal .close:hover {
   left: unset;
 }
 .rs-slider.slider-style5 {
-  background-image: url(assets/images/slider/style5/slide-bg.jpg);
+  background-image: url(/assets/images/slider/style5/slide-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4934,7 +4933,7 @@ body .search-modal .close:hover {
   border: none;
 }
 .rs-cta.cta-style2 .background-video-wrap .background-overlay {
-  background-image: url(assets/images/cta/shoe-bg.png);
+  background-image: url(/assets/images/cta/shoe-bg.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -5266,7 +5265,7 @@ body .search-modal .close:hover {
   opacity: 0.61;
 }
 .rs-contact.contact-style2.contact-modfiy1 .address-boxs .address-icon {
-  background-color: #FF254C;
+  background-color: #396ca8;
 }
 .rs-contact.contact-style2.contact-modfiy1 .address-boxs .address-text .text .label {
   font-weight: 500;
@@ -5663,13 +5662,13 @@ body .search-modal .close:hover {
   transform: scale(1.2);
 }
 .rs-project.project-style1.project-modify1 .project-item .project-content .category a {
-  color: #ff254c;
+  color: #396ca8;
 }
 .rs-project.project-style1.project-modify1 .project-item .project-content .title a {
   color: #3e3e3e;
 }
 .rs-project.project-style1.project-modify1 .project-item .project-content .title a:hover {
-  color: #ff254c;
+  color: #396ca8;
 }
 .rs-project.project-style1.project-modify1 .project-item .project-content {
   box-shadow: 30px 30px 50px 0px rgba(0, 0, 0, 0.05);
@@ -6590,8 +6589,8 @@ body .search-modal .close:hover {
   background-image: linear-gradient(137deg, #ffffff 0%, #ffffff 73 100%);
 }
 .rs-services.services-style3 .services-item .services-wrap .services-img img {
-  height: 110px;
-  width: 110px;
+  max-height: 180px;
+  width: 100%;
   max-width: unset;
 }
 .rs-services.services-style3 .services-item .services-wrap .services-content {
@@ -6605,7 +6604,7 @@ body .search-modal .close:hover {
   color: #19082d;
 }
 .rs-services.services-style3 .services-item .services-wrap .services-content .title:hover {
-  color: #ff254c;
+  color: #396ca8;
 }
 .rs-services.services-style3 .services-item .services-wrap .services-content .services-txt {
   font-size: 16px;
@@ -7690,11 +7689,11 @@ body .search-modal .close:hover {
 }
 .rs-blog.blog-main-home.blog-modify2 .blog-item .blog-content .blog-meta .categories a:hover,
 .rs-blog.blog-main-home.blog-modify2 .blog-item .blog-content .blog-title a:hover {
-  color: #ff254c;
+  color: #396ca8;
 }
 .rs-blog.blog-main-home.blog-modify2 .blog-button a:hover i:before,
 .rs-blog.blog-main-home.blog-modify2 .blog-button a:hover .btn-text {
-  color: #ff254c;
+  color: #396ca8;
 }
 .rs-blog.blog-main-home.blog-modify3 .blog-item {
   border-radius: 30px 30px 30px 30px;
@@ -8783,7 +8782,7 @@ body .search-modal .close:hover {
 }
 .rs-testimonial.testimonial-style4 .owl-nav .owl-next:hover i:before,
 .rs-testimonial.testimonial-style4 .owl-nav .owl-prev:hover i:before {
-  color: #ff254c;
+  color: #396ca8;
 }
 .rs-testimonial.testimonial-style4 .owl-nav .owl-next {
   right: 20px;
@@ -9662,20 +9661,20 @@ body .search-modal .close:hover {
   opacity: .9;
 }
 .rs-footer.footer-main-home.footer-modify3 .footer-top p input[type="submit"] {
-  background: #ff254c;
+  background: #396ca8;
 }
 .rs-footer.footer-main-home.footer-modify3 .footer-bottom .bottom-border .copy-right-menu li a:hover,
 .rs-footer.footer-main-home.footer-modify3 .footer-bottom .bottom-border .copyright p a:hover,
 .rs-footer.footer-main-home.footer-modify3 .footer-top .address-widget li .desc a:hover,
 .rs-footer.footer-main-home.footer-modify3 .footer-top .site-map li a:hover {
-  color: #ff254c;
+  color: #396ca8;
 }
 .rs-footer.footer-main-home.footer-modify3 .footer-top .footer-social li a i:hover {
   color: #ffffff;
-  background: #ff254c;
+  background: #396ca8;
 }
 .rs-footer.footer-main-home.footer-modify3 .footer-top p input[type="submit"]:hover {
-  background: #ff254c;
+  background: #396ca8;
   color: #fff;
 }
 .rs-footer.footer-main-home.footer-modify4 .footer-top p input[type="submit"] {
@@ -9900,7 +9899,7 @@ body .search-modal .close:hover {
   color: #ffffff;
 }
 #scrollUp.red-color i {
-  background: #ff254c;
+  background: #396ca8;
   color: #ffffff;
 }
 #scrollUp.blue-color i {

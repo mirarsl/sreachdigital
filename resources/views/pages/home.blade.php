@@ -3,269 +3,142 @@
 <div class="rs-banner banner-main-home">
     <div class="container">
         <div class="row">
-            <div class="col-lg-7">
+            <div class="col-lg-6">
                 <div class="content-wrap">
-                    <h1 class="title">We Design<br>Digital Products</h1>
+                    <h1 class="title">Sonsuz Dijital Başarı</h1>
                     <div class="description">
-                        <p>
-                            We are a digital agency that focuses on solving your problems by making a product that will exceed your expectations so far. 		
-                        </p>
+                        <p>Sreach Agency ile, deneyimli ve uzman ekibimizle, dijital ihtiyaçlarınıza sonsuz ve etkili çözümler sunuyoruz. Her projeyi özgün kılarak, sonsuz dijital pazarlama başarısına giden yolu inşa ediyoruz.</p>
                     </div>
                     <ul class="banner-bottom">
-                        <li><a class="readon started" href="contact.html">Get Started</a></li>
-                        <li>
-                            <div class="rs-videos">
-                                <div class="animate-border">
-                                    <a class="popup-border popup-videos" href="https://www.youtube.com/watch?v=FMvA5fyZ338">
-                                        <em><i class="fa fa-play"></i></em>
-                                        Play Intro
-                                    </a>
-                                </div>    
-                            </div>
-                        </li>
+                        <li><a class="readon started" href="#">İletişime Geç</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-5">
+            <div class="col-lg-6 align-items-center">
                 <div class="main-img text-right md-text-center">
-                    <img src="assets/images/banner/main-home/man-min.png" alt="Images">
-                    <div class="main-img-bg1">
-                        <img src="assets/images/banner/main-home/background-min.png" alt="Images">
-                    </div>
+                    <img src="/assets/images/slider.svg" alt="Images">
                 </div>
             </div>
         </div>
     </div>
     <div class="banner-animate">
-        <img class="animation-style one scale" src="assets/images/banner/main-home/hero-shpae-min.png" alt="Images">
-        <img class="animation-style two rotated-style" src="assets/images/banner/main-home/shape1.png" alt="Images">
-        <img class="animation-style three veritcal" src="assets/images/banner/main-home/shape2.png" alt="Images">
-        <img class="animation-style four spine" src="assets/images/banner/main-home/shape3.png" alt="Images">
-        <img class="animation-style five veritcal" src="assets/images/banner/main-home/shape4.png" alt="Images">
-        <img class="animation-style six veritcal" src="assets/images/banner/main-home/shape5.png" alt="Images">
-        <img class="animation-style seven rotated-style" src="assets/images/banner/main-home/shape6.png" alt="Images">
-        <img class="animation-style eight scale" src="assets/images/banner/main-home/dot1.png" alt="Images">
-        <img class="animation-style nine scale" src="assets/images/banner/main-home/dot2.png" alt="Images">
-        <img class="animation-style ten scale" src="assets/images/banner/main-home/dot2.png" alt="Images">
+        <img class="animation-style one scale" src="/assets/images/banner/main-home/hero-shpae-min.png" alt="Images">
+        <img class="animation-style two rotated-style" src="/assets/images/banner/main-home/shape1.png" alt="Images">
+        <img class="animation-style three veritcal" src="/assets/images/banner/main-home/shape2.png" alt="Images">
+        <img class="animation-style four spine" src="/assets/images/banner/main-home/shape3.png" alt="Images">
+        <img class="animation-style five veritcal" src="/assets/images/banner/main-home/shape4.png" alt="Images">
+        <img class="animation-style six veritcal" src="/assets/images/banner/main-home/shape5.png" alt="Images">
+        <img class="animation-style seven rotated-style" src="/assets/images/banner/main-home/shape6.png" alt="Images">
+        <img class="animation-style eight scale" src="/assets/images/banner/main-home/dot1.png" alt="Images">
+        <img class="animation-style nine scale" src="/assets/images/banner/main-home/dot2.png" alt="Images">
+        <img class="animation-style ten scale" src="/assets/images/banner/main-home/dot2.png" alt="Images">
     </div>
 </div>
-<div class="rs-services services-main-home bg1 pt-153 pb-160 md-pt-75 md-pb-80">
-    <div class="container custom">
-        <div class="sec-title text-center mb-55 md-mb-35">
-            <span class="sub-text">
-                What We Do
-            </span>
-            <h2 class="title">
-                Services we can<br>
-                help you.
-            </h2>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-6 mb-35">
-                <div class="services-item">
-                    <div class="services-wrap">
-                        <div class="services-img">
-                            <img src="assets/images/services/main-home/icons1.png" alt="Images">
-                        </div>
-                        <div class="services-content">
-                            <h2 class="title"><a href="services-details.html">Digital Marketing</a></h2>
-                            <p class="services-txt"> Ullamcorper malesuada proin libero nunc. Quis ipsum suspen.</p>
-                            <div class="services-button">
-                                <a href="#">
-                                      <span class="btn-text">
-                                          Read More                           
-                                      </span>
-                                      <i class="fi fi-rr-arrow-right"></i>
-                                  </a> 
-                            </div>
-                        </div>
+<div class="rs-services services-style3 pt-125 pb-130 md-pt-75 md-pb-80">
+    <div class="container">
+        <div class="row y-middle">
+            <div class="col-lg-5 pr-18 md-pr-15 md-mb-50">
+                <div class="sec-title2">
+                    <span class="sub-text">Neler Yapıyoruz?</span>
+                    <h2 class="title title8 pb-35">
+                        Tüm İhtiyaçlarınızı <span>SreachAgency</span> ile karşılayın
+                    </h2>
+                    <p class="desc pb-50 md-pb-35">
+                        Darkness they’re, moved whales great or void great man one man from blessed so our. Dominion good face was.
+                    </p>
+                    <div class="btn-part">
+                        <a class="readon red get-bdr" href="#">İletişime Geç</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 mb-35">
-                <div class="services-item">
-                    <div class="services-wrap">
-                        <div class="services-img">
-                            <img src="assets/images/services/main-home/icons2.png" alt="Images">
-                        </div>
-                        <div class="services-content">
-                            <h2 class="title"><a href="services-details.html">Video Production</a></h2>
-                            <p class="services-txt"> Ullamcorper malesuada proin libero nunc. Quis ipsum suspen.</p>
-                            <div class="services-button">
-                                <a href="services-details.html">
-                                      <span class="btn-text">
-                                          Read More                           
-                                      </span>
-                                      <i class="fi fi-rr-arrow-right"></i>
-                                  </a> 
+            <div class="col-lg-7">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 mb-40">
+                        <div class="services-item">
+                            <a href="">
+                            <div class="services-wrap">
+                                <div class="services-img">
+                                    <img src="assets/images/web.svg" alt="Images">
+                                </div>
+                                <div class="services-content">
+                                    <h2 class="title">Web Sitesi Tasarımları</h2>
+                                    <p class="services-txt">Kurumsal,E-Ticaret,Kişisel Blog,Landing Page ve Özel Tasarım Web Siteleri</p>
+                                </div>
                             </div>
+                            </a>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-35">
-                <div class="services-item">
-                    <div class="services-wrap">
-                        <div class="services-img">
-                            <img src="assets/images/services/main-home/icons3.png" alt="Images">
-                        </div>
-                        <div class="services-content">
-                            <h2 class="title"><a href="services-details.html">Branding Design</a></h2>
-                            <p class="services-txt"> Ullamcorper malesuada proin libero nunc. Quis ipsum suspen.</p>
-                            <div class="services-button">
-                                <a href="services-details.html">
-                                      <span class="btn-text">
-                                          Read More                           
-                                      </span>
-                                      <i class="fi fi-rr-arrow-right"></i>
-                                  </a> 
+                    <div class="col-lg-6 col-md-6 mb-40">
+                        <a href="">
+                            <div class="services-item">
+                                <div class="services-wrap">
+                                    <div class="services-img">
+                                        <img src="assets/images/digital.svg" alt="Images">
+                                    </div>
+                                    <div class="services-content">
+                                        <h2 class="title">Dijital Reklam Yönetimi</h2>
+                                        <p class="services-txt">Dijital pazarlama ajansı olarak, sosyal medya ve dijital platformlardaki reklam kampanyalarınızı profesyonel bir şekilde yönetiyoruz.</p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 md-mb-35">
-                <div class="services-item">
-                    <div class="services-wrap">
-                        <div class="services-img">
-                            <img src="assets/images/services/main-home/icons4.png" alt="Images">
-                        </div>
-                        <div class="services-content">
-                            <h2 class="title"><a href="services-details.html">UX Design</a></h2>
-                            <p class="services-txt"> Ullamcorper malesuada proin libero nunc. Quis ipsum suspen.</p>
-                            <div class="services-button">
-                                <a href="services-details.html">
-                                      <span class="btn-text">
-                                          Read More                           
-                                      </span>
-                                      <i class="fi fi-rr-arrow-right"></i>
-                                  </a> 
+                    <div class="col-lg-6 col-md-6 sm-mb-40">
+                        <a href="">
+                            <div class="services-item">
+                                <div class="services-wrap">
+                                    <div class="services-img">
+                                        <img src="assets/images/socialmedia.svg" alt="Images">
+                                    </div>
+                                    <div class="services-content">
+                                        <h2 class="title">Sosyal Medya Yönetimi</h2>
+                                        <p class="services-txt">Sosyal medya hesaplarınız için özgün içerik üretimi, tasarım, ve paylaşım hizmetleri sunuyoruz.</p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 sm-mb-35">
-                <div class="services-item">
-                    <div class="services-wrap">
-                        <div class="services-img">
-                            <img src="assets/images/services/main-home/icons5.png" alt="Images">
-                        </div>
-                        <div class="services-content">
-                            <h2 class="title"><a href="services-details.html">Web Development</a></h2>
-                            <p class="services-txt"> Ullamcorper malesuada proin libero nunc. Quis ipsum suspen.</p>
-                            <div class="services-button">
-                                <a href="services-details.html">
-                                      <span class="btn-text">
-                                          Read More                           
-                                      </span>
-                                      <i class="fi fi-rr-arrow-right"></i>
-                                  </a> 
+                    <div class="col-lg-6 col-md-6">
+                       <a href="">
+                        <div class="services-item">
+                            <div class="services-wrap">
+                                <div class="services-img">
+                                    <img src="assets/images/graphic.svg" alt="Images">
+                                </div>
+                                <div class="services-content">
+                                    <h2 class="title">Grafik & tasarım Hizmetleri</h2>
+                                    <p class="services-txt">Logo kartvizit katalog broşür ve benzeri materyallerin grafik tasarım hizmeti sunuyoruz</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="services-item">
-                    <div class="services-wrap">
-                        <div class="services-img">
-                            <img src="assets/images/services/main-home/icons6.png" alt="Images">
-                        </div>
-                        <div class="services-content">
-                            <h2 class="title"><a href="services-details.html">eCommerce</a></h2>
-                            <p class="services-txt"> Ullamcorper malesuada proin libero nunc. Quis ipsum suspen.</p>
-                            <div class="services-button">
-                                <a href="services-details.html">
-                                      <span class="btn-text">
-                                          Read More                           
-                                      </span>
-                                      <i class="fi fi-rr-arrow-right"></i>
-                                  </a> 
-                            </div>
-                        </div>
+                       </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-<div class="rs-about about-style1 pt-160 pb-160 md-pt-80 md-pb-75">
+<div class="rs-about about-style1 pt-145 pb-150 md-pt-75 md-pb-80">
     <div class="container">
         <div class="row y-middle">
             <div class="col-lg-6 md-mb-50">
-                <div class="about-image-wrap">
-                    <div class="images-part">
-                        <img src="assets/images/about/style1/about.png" alt="About">
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 pl-30 md-pl-15">
-                <div class="sec-title">
-                    <span class="sub-text primary-color">
-                        About Swipy
-                    </span>
-                    <h2 class="title pb-35">
-                        Creative agency that help you go ahead.
+                <div class="sec-title2">
+                    <h2 class="title title4 pb-38">
+                        Neden SreachAgency?
                     </h2>
-                    <p class="desc pb-60 md-pb-30">
-                        Darkness they’re, moved whales great or void great man one man from blessed so our. Dominion good face was sixth male kind offer together beginning saw fifth midst they’re spirit which gathered. Appear saying blessed working experience.
-                    </p>
-                    <div class="rs-counter counter-style1">
-                        <div class="row">
-                            <div class="col-lg-4 md-mb-30">
-                                <div class="rs-counter-list"> 
-                                    <div class="count-text">
-                                        <div class="count-number">
-                                            <span class="prefix">+0</span>	
-                                            <span class="rs-count">7</span>
-                                        </div>
-                                        <span class="title">Year of experience</span>	
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 md-mb-30">
-                                <div class="rs-counter-list"> 
-                                    <div class="count-text">
-                                        <div class="count-number">
-                                            <span class="prefix">+</span>	
-                                            <span class="rs-count">50</span>
-                                            <span class="prefix">k</span>	
-                                        </div>
-                                        <span class="title">Complete Project</span>	
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="rs-counter-list"> 
-                                    <div class="count-text">
-                                        <div class="count-number">
-                                            <span class="prefix">+</span>	
-                                            <span class="rs-count">70</span>
-                                        </div>
-                                        <span class="title">Client Satisfied</span>	
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="desc">
+                        <p>Sreach Agency olarak, dijital dünyadaki tüm ihtiyaçlarınızı karşılayacak dinamik çözümler sunuyoruz! 2016 yılından bu yana gelişen ve büyüyen ekibimiz, 360 derece hizmet sunma kapasitesine sahiptir. Sreach Agency, dijital pazarlama alanında uzmanlaşmış olmasının yanı sıra 10'dan fazla alanda hizmet sunmaktadır. Projelerin her aşamasında teknik destek sağlarken aynı zamanda danışmanlık ve çözüm hizmetleri de sunmaktayız.</p>
                     </div>
-                    <div class="btn-part mt-46">
-                        <a class="readon leran" href="about.html">Leran More</a>
+                    <div class="btn-part mt-20">
+                        <a class="readon red get-started2" href="#">İletişime Geç</a>
                     </div>
+                </div>	
+            </div>
+            <div class="col-lg-6">
+                <div class="about-home10">
+                    <img class="js-tilt" src="/assets/images/about.svg" alt="About">
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="about-animation">
-        <div class="animate one">
-            <img src="assets/images/about/style1/dot1.png" alt="About">
-        </div>
-        <div class="animate two">
-            <img src="assets/images/about/style1/dot2.png" alt="About">
-        </div>
-        <div class="animate three">
-            <img src="assets/images/about/style1/dot3.png" alt="About">
         </div>
     </div>
 </div>
@@ -275,18 +148,14 @@
         <div class="row y-middle">
             <div class="col-lg-6 mb-60">
                 <div class="sec-title">
-                    <span class="sub-text">
-                        portfolio
-                    </span>
-                    <h2 class="title white-color">
-                        Our latest projects
-                    </h2>
+                    <span class="sub-text">Referanslarımız</span>
+                    <h2 class="title white-color">Müşterilerimize özel üretimlerimiz</h2>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="project-button text-right md-left mt--40 md-mb-70">
-                    <a class="portfolio-single-column.html" href="contact.html">
-                        See All Project
+                    <a class="portfolio-single-column" href="#">
+                        Tümünü Gör
                         <i class="fa fi fi-rr-arrow-right"></i>
                     </a>
                 </div>
@@ -296,52 +165,52 @@
             <div class="col-lg-6 mb-30">
                 <div class="project-item">
                     <div class="project-img">
-                        <a href="portfolio-single-column.html">
+                        <a href="portfolio-single-column">
                             <img src="assets/images/project/style1/port1.jpg" alt="Images">
                         </a>
                     </div>
                     <div class="project-content">
-                        <span class="category"><a href="portfolio-single-column.html">Branding</a></span>
-                        <h3 class="title"><a href="portfolio-single-column.html">Webi UI Redesign</a></h3>
+                        <span class="category"><a href="portfolio-single-column">Branding</a></span>
+                        <h3 class="title"><a href="portfolio-single-column">Webi UI Redesign</a></h3>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6 mb-30">
                 <div class="project-item">
                     <div class="project-img">
-                        <a href="portfolio-single-column.html">
+                        <a href="portfolio-single-column">
                             <img src="assets/images/project/style1/port2.jpg" alt="Images">
                         </a>
                     </div>
                     <div class="project-content">
-                        <span class="category"><a href="portfolio-single-column.html">Branding</a></span>
-                        <h3 class="title"><a href="portfolio-single-column.html">Book Cover</a></h3>
+                        <span class="category"><a href="portfolio-single-column">Branding</a></span>
+                        <h3 class="title"><a href="portfolio-single-column">Book Cover</a></h3>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6 md-mb-30">
                 <div class="project-item">
                     <div class="project-img">
-                        <a href="portfolio-single-column.html">
+                        <a href="portfolio-single-column">
                             <img src="assets/images/project/style1/port3.jpg" alt="Images">
                         </a>
                     </div>
                     <div class="project-content">
-                        <span class="category"><a href="portfolio-single-column.html">Branding</a></span>
-                        <h3 class="title"><a href="portfolio-single-column.html">Mockup Design</a></h3>
+                        <span class="category"><a href="portfolio-single-column">Branding</a></span>
+                        <h3 class="title"><a href="portfolio-single-column">Mockup Design</a></h3>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="project-item">
                     <div class="project-img">
-                        <a href="portfolio-single-column.html">
+                        <a href="portfolio-single-column">
                             <img src="assets/images/project/style1/port4.jpg" alt="Images">
                         </a>
                     </div>
                     <div class="project-content">
-                        <span class="category"><a href="portfolio-single-column.html">Branding</a></span>
-                        <h3 class="title"><a href="portfolio-single-column.html">Nike Air Max</a></h3>
+                        <span class="category"><a href="portfolio-single-column">Branding</a></span>
+                        <h3 class="title"><a href="portfolio-single-column">Nike Air Max</a></h3>
                     </div>
                 </div>
             </div>

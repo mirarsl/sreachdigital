@@ -20,7 +20,7 @@
 		<link rel="stylesheet" type="text/css" href="/assets/css/rs-spacing.css">
 		<link rel="stylesheet" type="text/css" href="/assets/css/style.css"> 
 		<link rel="stylesheet" type="text/css" href="/assets/css/responsive.css">
-		
+		@stack('links')
 	</head>
 	<body class="defult-home">
 		
@@ -140,7 +140,6 @@
 					    </div>
 					</nav>
 
-					<!-- Canvas Mobile Menu start -->
 					<nav class="right_menu_togle mobile-navbar-menu" id="mobile-navbar-menu">
 					    <div class="close-btn">
 					        <a id="nav-close2" class="nav-close">
@@ -276,11 +275,13 @@
 		<script src="/assets/js/wow.min.js"></script>
 		<script src="/assets/js/skill.bars.jquery.js"></script>
 		<script src="/assets/js/imagesloaded.pkgd.min.js"></script>
+		<script src="/assets/js/tilt.jquery.min.js"></script>
 		<script src="/assets/js/slick.min.js"></script>
 		<script src="/assets/js/waypoints.min.js"></script>
 		<script src="/assets/js/jquery.magnific-popup.min.js"></script>
 		<script src="/assets/js/jquery.counterup.min.js"></script> 
 		<script src="/assets/js/contact.form.js"></script>
 		<script src="/assets/js/main.js"></script>
+        @stack('scripts')
 	</body>
 </html>
