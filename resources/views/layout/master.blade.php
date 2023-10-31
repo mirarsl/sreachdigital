@@ -28,7 +28,7 @@
 	   	<div id="pre-load">
             <div id="loader" class="loader">
                 <div class="loader-container">
-                    <div class="loader-icon"><img src="/assets/images/fav.png" alt="Swipy Creative Agency Html Template "></div>
+                    <div class="loader-icon"><img src="/assets/images/favicon.png" alt="Swipy Creative Agency Html Template "></div>
                 </div>
             </div>              
         </div>

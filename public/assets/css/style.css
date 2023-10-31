@@ -264,12 +264,12 @@ ul {
 ::-moz-selection {
   background: #396ca8;
   text-shadow: none;
-  color: #ffffff;
+  color: #000000;
 }
 ::selection {
   background: #396ca8;
   text-shadow: none;
-  color: #ffffff;
+  color: #000000;
 }
 .bg1 {
   background: url(/assets/images/bg/ser-bg1.png);
@@ -1542,6 +1542,7 @@ blockquote p {
   transition: 0.5s;
   z-index: 1;
 }
+.submit-btn button,
 .submit-btn input[type="submit"] {
   position: relative;
   display: inline-block;
@@ -1674,7 +1675,6 @@ blockquote p {
   font-size: 25px;
   font-weight: 500;
   line-height: 40px;
-  color: #fff;
 }
 /*Video Icon*/
 .rs-videos .animate-border .popup-border {
@@ -2257,25 +2257,25 @@ blockquote p {
 .full-width-header .rs-header .expand-btn-inner ul .search-parent .sticky_form ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
 
-  color: #fff;
+  color: #000;
   opacity: 1;
 }
 .full-width-header .rs-header .expand-btn-inner ul .search-parent .sticky_form ::-moz-placeholder {
   /* Firefox 19+ */
 
-  color: #fff;
+  color: #000;
   opacity: 1;
 }
 .full-width-header .rs-header .expand-btn-inner ul .search-parent .sticky_form :-ms-input-placeholder {
   /* IE 10+ */
 
-  color: #fff;
+  color: #000;
   opacity: 1;
 }
 .full-width-header .rs-header .expand-btn-inner ul .search-parent .sticky_form :-moz-placeholder {
   /* Firefox 18- */
 
-  color: #fff;
+  color: #000;
   opacity: 1;
 }
 .full-width-header .rs-header .expand-btn-inner ul .search-parent.open_add_class .sticky_form {
@@ -2856,25 +2856,25 @@ body .search-modal .search-block form button i:before {
 body .search-modal .search-block ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
 
-  color: #fff;
+  color: #000;
   opacity: 1;
 }
 body .search-modal .search-block ::-moz-placeholder {
   /* Firefox 19+ */
 
-  color: #fff;
+  color: #000;
   opacity: 0.3;
 }
 body .search-modal .search-block :-ms-input-placeholder {
   /* IE 10+ */
 
-  color: #fff;
+  color: #000;
   opacity: 1;
 }
 body .search-modal .search-block :-moz-placeholder {
   /* Firefox 18- */
 
-  color: #fff;
+  color: #000;
   opacity: 1;
 }
 body .search-modal .close {
@@ -5092,10 +5092,10 @@ body .search-modal .close:hover {
   position: relative;
 }
 .rs-contact.contact-style1 .model-img {
-  background-image: url(/assets/images/contact/model-min.png);
-  background-position: bottom left;
+  background-image: url(/assets/images/cta.svg);
+  background-position: left center;
   background-repeat: no-repeat;
-  background-size: 86% auto;
+  background-size: 90% auto;
 }
 .rs-contact.contact-style1 .contact-wrap {
   position: relative;
@@ -5106,8 +5106,8 @@ body .search-modal .close:hover {
   padding: 18px 30px 18px 30px;
   border-radius: 10px 10px 10px 10px;
   border-style: solid;
-  color: #FFFFFF;
-  background-color: #FFFFFF12;
+  color: #000;
+  background-color: #ffffff;
   border-width: 0px 0px 0px 0px;
   box-shadow: 0px 0px 12px -2px rgba(0, 0, 0, 0.05);
   border: none;
@@ -5126,25 +5126,25 @@ body .search-modal .close:hover {
 .rs-contact.contact-style1 .contact-wrap ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
 
-  color: #fff;
+  color: #000;
   opacity: 0.69;
 }
 .rs-contact.contact-style1 .contact-wrap ::-moz-placeholder {
   /* Firefox 19+ */
 
-  color: #fff;
+  color: #000;
   opacity: 0.69;
 }
 .rs-contact.contact-style1 .contact-wrap :-ms-input-placeholder {
   /* IE 10+ */
 
-  color: #fff;
+  color: #000;
   opacity: 0.69;
 }
 .rs-contact.contact-style1 .contact-wrap :-moz-placeholder {
   /* Firefox 18- */
 
-  color: #fff;
+  color: #000;
   opacity: 0.69;
 }
 .rs-contact.contact-style1 .contact-animate .animation {
@@ -7164,6 +7164,10 @@ body .search-modal .close:hover {
   visibility: hidden;
   -webkit-transform: translateY(-100%);
 }
+.rs-partner.partner-main-home .slider .partner-item .logo-img a img{
+  height: 80px;
+  object-fit: contain;
+}
 .rs-partner.partner-main-home .slider .partner-item .logo-img a .mains-logos {
   transition: all 0.3s ease-in-out;
   display: block;
@@ -7617,7 +7621,7 @@ body .search-modal .close:hover {
   display: flex;
   justify-content: flex-start;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  margin: 4px 38px 20px;
+  margin: 4px 0 20px;
   padding: 0 0 15px;
 }
 .rs-blog.blog-main-home .blog-item .blog-content .blog-meta .admin {
@@ -8234,7 +8238,6 @@ body .search-modal .close:hover {
   position: relative;
 }
 .rs-testimonial.testimonial-style1 .slider .testi-item .testi-content .testi-information {
-  padding: 0 0 0 20px;
   text-align: left;
 }
 .rs-testimonial.testimonial-style1 .slider .testi-item .testi-content .testi-information .testi-name {

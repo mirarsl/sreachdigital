@@ -165,52 +165,52 @@
             <div class="col-lg-6 mb-30">
                 <div class="project-item">
                     <div class="project-img">
-                        <a href="portfolio-single-column">
-                            <img src="assets/images/project/style1/port1.jpg" alt="Images">
+                        <a href="#">
+                            <img src="assets/images/project1.jpeg" alt="Images">
                         </a>
                     </div>
                     <div class="project-content">
-                        <span class="category"><a href="portfolio-single-column">Branding</a></span>
-                        <h3 class="title"><a href="portfolio-single-column">Webi UI Redesign</a></h3>
+                        <span class="category"><a href="#">Sosyal Medya Yönetimi</a></span>
+                        <h3 class="title"><a href="#">BEON İnşaat Elektromekanik</a></h3>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6 mb-30">
                 <div class="project-item">
                     <div class="project-img">
-                        <a href="portfolio-single-column">
-                            <img src="assets/images/project/style1/port2.jpg" alt="Images">
+                        <a href="#">
+                            <img src="assets/images/project2.jpeg" alt="Images">
                         </a>
                     </div>
                     <div class="project-content">
-                        <span class="category"><a href="portfolio-single-column">Branding</a></span>
-                        <h3 class="title"><a href="portfolio-single-column">Book Cover</a></h3>
+                        <span class="category"><a href="#">Sosyal Medya Yönetimi</a></span>
+                        <h3 class="title"><a href="#">Kalamaki Villa</a></h3>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6 md-mb-30">
                 <div class="project-item">
                     <div class="project-img">
-                        <a href="portfolio-single-column">
-                            <img src="assets/images/project/style1/port3.jpg" alt="Images">
+                        <a href="#">
+                            <img src="assets/images/project3.jpeg" alt="Images">
                         </a>
                     </div>
                     <div class="project-content">
-                        <span class="category"><a href="portfolio-single-column">Branding</a></span>
-                        <h3 class="title"><a href="portfolio-single-column">Mockup Design</a></h3>
+                        <span class="category"><a href="#">Sosyal Medya Yönetimi</a></span>
+                        <h3 class="title"><a href="#">BB Clinic</a></h3>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="project-item">
                     <div class="project-img">
-                        <a href="portfolio-single-column">
-                            <img src="assets/images/project/style1/port4.jpg" alt="Images">
+                        <a href="#">
+                            <img src="assets/images/project4.jpeg" alt="Images">
                         </a>
                     </div>
                     <div class="project-content">
-                        <span class="category"><a href="portfolio-single-column">Branding</a></span>
-                        <h3 class="title"><a href="portfolio-single-column">Nike Air Max</a></h3>
+                        <span class="category"><a href="#">Sosyal Medya Yönetimi</a></span>
+                        <h3 class="title"><a href="#">KWM Marin</a></h3>
                     </div>
                 </div>
             </div>
@@ -227,249 +227,79 @@
 </div>
 
 <div class="rs-faq faq-style1 bg3 pt-153 pb-160 md-pt-75 md-pb-80">
-      <div class="container">
-       <div class="row y-middle">
-               <div class="col-lg-6 md-mb-50">	
-                   <div class="sec-title mb-55">
-                       <span class="sub-text primary-color">
-                           Work Process
-                       </span>
-                       <h2 class="title">
-                           Strategy led design in<br> 
-                           every details
-                       </h2>
-                   </div>		   			
-                <div class="faq-content">
-                    <div id="accordion" class="accordion">
-                       <div class="card">
-                           <div class="card-header">
-                               <a class="card-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true">Analysis & Idea</a>
-                           </div>
-                           <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
-                               <div class="card-body">
-                                   Sit amet mauris commodo quis imperdiet massa tincidunt. Ut
-                                   enim blandit volutpat maecenas.
-                               </div>
-                           </div>
-                       </div>
-                       <div class="card">
-                           <div class="card-header">
-                               <a class="card-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false">Wireframs, Mockup & Phototype</a>
-                           </div>
-                           <div id="collapseTwo" class="collapse" data-bs-parent="#accordion" style="">
-                               <div class="card-body">
-                                   Sit amet mauris commodo quis imperdiet massa tincidunt. Ut
-                                   enim blandit volutpat maecenas.
-                               </div>
-                           </div>
-                       </div>
-                       <div class="card">
-                           <div class="card-header">
-                               <a class="card-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false">Development</a>
-                           </div>
-                           <div id="collapseThree" class="collapse" data-bs-parent="#accordion" style="">
-                               <div class="card-body">
-                                   Sit amet mauris commodo quis imperdiet massa tincidunt. Ut
-                                       enim blandit volutpat maecenas.
-                               </div>
-                           </div>
-                       </div>
-                       <div class="card">
-                           <div class="card-header">
-                               <a class="card-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false">Testing & Lunuch</a>
-                           </div>
-                           <div id="collapseFour" class="collapse" data-bs-parent="#accordion" style="">
-                               <div class="card-body">
-                                   Sit amet mauris commodo quis imperdiet massa tincidunt. Ut
-                                   enim blandit volutpat maecenas.
-                               </div>
-                           </div>
-                       </div> 
-                    </div>
-                </div>
-               </div>
-               <div class="col-lg-6">
-                   <div class="faq-img">
-                       <img src="assets/images/process/style1/process-img.png" alt="">
-                   </div>
-               </div>
-       </div>
-      </div>
-      <div class="faq-animation">
-          <div class="animate one">
-              <img src="assets/images/process/style1/dot1.png" alt="About">
-          </div>
-          <div class="animate two">
-              <img src="assets/images/process/style1/dot2.png" alt="About">
-          </div>
-          <div class="animate three">
-              <img src="assets/images/process/style1/dot3.png" alt="About">
-          </div>
-          <div class="animate four">
-              <img src="assets/images/process/style1/dot4.png" alt="About">
-          </div>
-      </div>
-</div>
-
-<div class="pricing-container rs-pricing-container pricing-style1 bg4 pt-153 pb-160 md-pt-75 md-pb-80">				
-    <div class="sec-title text-center mb-55 md-mb-35">
-        <span class="sub-text">
-            Our Pricing
-        </span>
-        <h2 class="title">
-            Find the Right Plan.							
-        </h2>
-    </div>
-    <div class="pricing-switcher">
-        <p class="fieldset mnt-ac">
-            <input type="radio" name="duration-1" value="monthly" id="monthly-1" checked="">
-            <label for="monthly-1" id="rsmnt" class="rs-mnt">Monthly  </label>
-            <input type="radio" name="duration-1" value="yearly" id="yearly-1">
-            <label for="yearly-1" id="rsyrs" class="rs-yrs">Yearly  </label>
-            <span class="switch"></span>
-        </p>
-    </div>
     <div class="container">
-        <ul class="pricing-list bounce-invert">
-            <li class="exclusive md-mb-50">
-                <ul class="pricing-wrapper">                            
-                    <li data-type="monthly" class="is-visible">
-                        <header class="pricing-header">
-                            <h3 class="title">Free</h3>
-                            <div class="price">$00.00</div>                                    
-                        </header>
-                        <div class="pricing-body">                                    
-                            <div class="description">Perfect for Prosonal</div>
-                            <div class="features">
-                                <ul>
-                                    <li>1 Users</li>
-                                    <li>SaaS Metrics</li>
-                                    <li>Team Collaboration</li>
-                                    <li>Upload Your Document</li>
-                                    <li>Export PDF</li>
-                                </ul>
+       <div class="row y-middle">
+            <div class="col-lg-6 md-mb-50">	
+                <div class="sec-title mb-55">
+                    <span class="sub-text primary-color">Sreach Digital</span>
+                    <h2 class="title">Çalışma Aşamaları</h2>
+                </div>		   			
+            <div class="faq-content">
+                <div id="accordion" class="accordion">
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="card-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true">Süreç Nasıl İlerliyor?</a>
+                        </div>
+                        <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                            <div class="card-body">İlgili ihtiyacın detaylarını sizden aldıktan sonra,hizmetin uzmanlarımız tarafından analiz yapılır ve sürecin nasıl ilerleyeceğine dair bilgilendirme yapılır</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="card-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false">Nasıl İlerliyoruz?</a>
+                        </div>
+                        <div id="collapseTwo" class="collapse" data-bs-parent="#accordion" style="">
+                            <div class="card-body">
+                                Sit amet mauris commodo quis imperdiet massa tincidunt. Ut
+                                enim blandit volutpat maecenas.
                             </div>
                         </div>
-                        <footer class="pricing-footer">
-                            <a href="contact.html">Get Started</a>
-                        </footer>
-                    </li>
-                    <li data-type="yearly" class="is-hidden">
-                        <header class="pricing-header">
-                            <h3>Free</h3>
-                            <div class="price">$00.00</div>                                    
-                        </header>
-                        <div class="pricing-body">                                    
-                            <div class="description">Perfect for Prosonal</div>
-                            <div class="features">
-                                <ul>
-                                    <li>1 Users</li>
-                                    <li>SaaS Metrics</li>
-                                    <li>Team Collaboration</li>
-                                    <li>Upload Your Document</li>
-                                    <li>Export PDF</li>
-                                </ul>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="card-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false">Nasıl teslim ediyoruz?</a>
+                        </div>
+                        <div id="collapseThree" class="collapse" data-bs-parent="#accordion" style="">
+                            <div class="card-body">
+                                Sit amet mauris commodo quis imperdiet massa tincidunt. Ut
+                                    enim blandit volutpat maecenas.
                             </div>
                         </div>
-                        <footer class="pricing-footer">
-                            <a href="contact.html">Get Started</a>
-                        </footer>
-                    </li>
-                </ul>
-            </li>
-            <li class="exclusive md-mb-50">
-                <ul class="pricing-wrapper">                            
-                    <li data-type="monthly" class="is-visible">
-                        <header class="pricing-header">
-                            <h3 class="title">Basic</h3>
-                            <div class="price">$99.00</div>                                    
-                        </header>
-                        <div class="pricing-body">                                    
-                            <div class="description">Perfect for Prosonal</div>
-                            <div class="features">
-                                <ul>
-                                    <li>1 Users</li>
-                                    <li>SaaS Metrics</li>
-                                    <li>Team Collaboration</li>
-                                    <li>Upload Your Document</li>
-                                    <li>Export PDF</li>
-                                </ul>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="card-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false">Nasıl destek veriyoruz?</a>
+                        </div>
+                        <div id="collapseFour" class="collapse" data-bs-parent="#accordion" style="">
+                            <div class="card-body">
+                                Sit amet mauris commodo quis imperdiet massa tincidunt. Ut
+                                enim blandit volutpat maecenas.
                             </div>
                         </div>
-                        <footer class="pricing-footer">
-                            <a href="contact.html">Get Started</a>
-                        </footer>
-                    </li>
-                    <li data-type="yearly" class="is-hidden">
-                        <header class="pricing-header">
-                            <h3>Basic</h3>
-                            <div class="price">$399.00</div>                                    
-                        </header>
-                        <div class="pricing-body">                                    
-                            <div class="description">Perfect for Prosonal</div>
-                            <div class="features">
-                                <ul>
-                                    <li>1 Users</li>
-                                    <li>SaaS Metrics</li>
-                                    <li>Team Collaboration</li>
-                                    <li>Upload Your Document</li>
-                                    <li>Export PDF</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <footer class="pricing-footer">
-                            <a href="contact.html">Get Started</a>
-                        </footer>
-                    </li>
-                </ul>
-            </li>
-            <li class="exclusive">
-                <ul class="pricing-wrapper">                            
-                    <li data-type="monthly" class="is-visible">
-                        <header class="pricing-header">
-                            <h3 class="title">Enterprise</h3>
-                            <div class="price">$299.00</div>                                    
-                        </header>
-                        <div class="pricing-body">                                    
-                            <div class="description">Perfect for Prosonal</div>
-                            <div class="features">
-                                <ul>
-                                    <li>1 Users</li>
-                                    <li>SaaS Metrics</li>
-                                    <li>Team Collaboration</li>
-                                    <li>Upload Your Document</li>
-                                    <li>Export PDF</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <footer class="pricing-footer">
-                            <a href="contact.html">Get Started</a>
-                        </footer>
-                    </li>
-                    <li data-type="yearly" class="is-hidden">
-                        <header class="pricing-header">
-                            <h3>Enterprise</h3>
-                            <div class="price">$999.99</div>                                    
-                        </header>
-                        <div class="pricing-body">                                    
-                            <div class="description">Perfect for Prosonal</div>
-                            <div class="features">
-                                <ul>
-                                    <li>1 Users</li>
-                                    <li>SaaS Metrics</li>
-                                    <li>Team Collaboration</li>
-                                    <li>Upload Your Document</li>
-                                    <li>Export PDF</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <footer class="pricing-footer">
-                            <a href="contact.html">Get Started</a>
-                        </footer>
-                    </li>
-                </ul>
-            </li>
-        </ul>
+                    </div> 
+                </div>
+            </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="faq-img">
+                    <img src="/assets/images/process.svg" alt="">
+                </div>
+            </div>
+       </div>
+    </div>
+    <div class="faq-animation">
+        <div class="animate one">
+            <img src="assets/images/process/style1/dot1.png" alt="About">
+        </div>
+        <div class="animate two">
+            <img src="assets/images/process/style1/dot2.png" alt="About">
+        </div>
+        <div class="animate three">
+            <img src="assets/images/process/style1/dot3.png" alt="About">
+        </div>
+        <div class="animate four">
+            <img src="assets/images/process/style1/dot4.png" alt="About">
+        </div>
     </div>
 </div>
 
@@ -478,117 +308,192 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="sec-title mb-55 md-mb-0">
-                    <span class="sub-text">
-                        Testimonial
-                    </span>
-                    <h2 class="title">
-                        What people are saying!						
-                    </h2>
+                    <span class="sub-text">Sreach Digital</span>
+                    <h2 class="title">Müşteri Yorumları</h2>
                 </div>
             </div>
         </div>
     </div>
     <div class="container custom">
         <div class="slider testi-slide-1">
+
             <div class="testi-item">
                <div class="item-content">
-                       <span>
-                           <img class="normal-img" src="assets/images/testimonial/style1/quote.png" alt="Testimonial">
-                           <img class="hover-logo" src="assets/images/testimonial/style1/quote2.png" alt="Testimonial">
-                       </span>
-                       <p>I love your system. Agency is both attractive and highly adaptable. Man, this thing is getting better and better as I learn more about it. I am so pleased with this product.</p>
+                    <span>
+                        <img class="normal-img" src="/assets/images/testimonial/style1/quote.png" alt="Testimonial">
+                        <img class="hover-logo" src="/assets/images/testimonial/style1/quote2.png" alt="Testimonial">
+                    </span>
+                    <p>Sreach Agency, sosyal medya yönetiminde mükemmel bir iş çıkarıyor. Markamızın online varlığını büyütmek için harika stratejiler geliştiriyorlar. Her zaman müşterilerimize daha yakın hissettiriyorlar.</p>
                </div>
                <div class="testi-content">
-                       <div class="image-wrap">
-                           <img src="assets/images/testimonial/style1/testi1.png" alt="Testimonial">
-                       </div>
-                       <div class="testi-information">
-                           <div class="testi-name">Mark Agroiks</div>
-                           <span class="testi-title">CEO, Agrok Inc.</span>
-                       </div>
+                    <div class="testi-information">
+                        <div class="testi-name">Mehmet A</div>
+                    </div>
                </div>
             </div>
             <div class="testi-item">
-               <div class="item-content">
-                       <span>
-                           <img class="normal-img" src="assets/images/testimonial/style1/quote.png" alt="Testimonial">
-                           <img class="hover-logo" src="assets/images/testimonial/style1/quote2.png" alt="Testimonial">
-                       </span>
-                       <p>I love your system. Agency is both attractive and highly adaptable. Man, this thing is getting better and better as I learn more about it. I am so pleased with this product.</p>
-               </div>
-               <div class="testi-content">
-                       <div class="image-wrap">
-                           <img src="assets/images/testimonial/style1/testi2.png" alt="Testimonial">
-                       </div>
-                       <div class="testi-information">
-                           <div class="testi-name">Billu Gol</div>
-                           <span class="testi-title">CEO, Agrok Inc.</span>
-                       </div>
-               </div>
-            </div>
-            <div class="testi-item">
-               <div class="item-content">
-                       <span>
-                           <img class="normal-img" src="assets/images/testimonial/style1/quote.png" alt="Testimonial">
-                           <img class="hover-logo" src="assets/images/testimonial/style1/quote2.png" alt="Testimonial">
-                       </span>
-                       <p>I love your system. Agency is both attractive and highly adaptable. Man, this thing is getting better and better as I learn more about it. I am so pleased with this product.</p>
-               </div>
-               <div class="testi-content">
-                       <div class="image-wrap">
-                           <img src="assets/images/testimonial/style1/testi3.png" alt="Testimonial">
-                       </div>
-                       <div class="testi-information">
-                           <div class="testi-name">Ani Jhon</div>
-                           <span class="testi-title">CEO, Apce.co</span>
-                       </div>
-               </div>
-            </div>
+                <div class="item-content">
+                     <span>
+                         <img class="normal-img" src="/assets/images/testimonial/style1/quote.png" alt="Testimonial">
+                         <img class="hover-logo" src="/assets/images/testimonial/style1/quote2.png" alt="Testimonial">
+                     </span>
+                     <p>Sreach Agency ekibi, sosyal medya kampanyalarını yürütmede gerçekten profesyonel. Hedef kitlenize ulaşmak ve etkileşimi artırmak için ihtiyacınız olan desteği sağlıyorlar.</p>
+                </div>
+                <div class="testi-content">
+                     <div class="testi-information">
+                         <div class="testi-name">Ayşe B</div>
+                     </div>
+                </div>
+             </div>
+             <div class="testi-item">
+                <div class="item-content">
+                     <span>
+                         <img class="normal-img" src="/assets/images/testimonial/style1/quote.png" alt="Testimonial">
+                         <img class="hover-logo" src="/assets/images/testimonial/style1/quote2.png" alt="Testimonial">
+                     </span>
+                     <p>Sreach Agency, web sitemizin tasarımını baştan aşağı yeniden yaparak işimizi nasıl daha çekici ve etkili hale getirebileceğimizi gösterdi. Sonuç mükemmel oldu!</p>
+                </div>
+                <div class="testi-content">
+                     <div class="testi-information">
+                         <div class="testi-name">Emre Ç</div>
+                     </div>
+                </div>
+             </div>
+             <div class="testi-item">
+                <div class="item-content">
+                     <span>
+                         <img class="normal-img" src="/assets/images/testimonial/style1/quote.png" alt="Testimonial">
+                         <img class="hover-logo" src="/assets/images/testimonial/style1/quote2.png" alt="Testimonial">
+                     </span>
+                     <p>Web sitemizi yeniden tasarlamak için Sreach Agency ile çalışmak harikaydı. Kullanıcı deneyimi mükemmel ve site hızı arttı. Müşterilerimizden çok olumlu geri bildirimler aldık.</p>
+                </div>
+                <div class="testi-content">
+                     <div class="testi-information">
+                         <div class="testi-name">Elif D.</div>
+                     </div>
+                </div>
+             </div>
+             <div class="testi-item">
+                <div class="item-content">
+                     <span>
+                         <img class="normal-img" src="/assets/images/testimonial/style1/quote.png" alt="Testimonial">
+                         <img class="hover-logo" src="/assets/images/testimonial/style1/quote2.png" alt="Testimonial">
+                     </span>
+                     <p>E-ticaret konusunda Sreach Agency ile çalışmak büyük bir kolaylık oldu. Sitemizi optimize ettiler ve dönüşümleri artırmamıza yardımcı oldular. Ekip her adımda profesyonel ve ilgiliydi.</p>
+                </div>
+                <div class="testi-content">
+                     <div class="testi-information">
+                         <div class="testi-name">Ali R.</div>
+                     </div>
+                </div>
+             </div>
+             <div class="testi-item">
+                <div class="item-content">
+                     <span>
+                         <img class="normal-img" src="/assets/images/testimonial/style1/quote.png" alt="Testimonial">
+                         <img class="hover-logo" src="/assets/images/testimonial/style1/quote2.png" alt="Testimonial">
+                     </span>
+                     <p>Sreach Agency, e-ticaret işimize ivme kazandırdı. Müşteri tabanımızı genişletmemize ve çevrimiçi satışlarımızı artırmamıza yardımcı oldular. İşbirliği yapmaktan çok memnunuz.</p>
+                </div>
+                <div class="testi-content">
+                     <div class="testi-information">
+                         <div class="testi-name">Burcu K.</div>
+                     </div>
+                </div>
+             </div>
+             <div class="testi-item">
+                <div class="item-content">
+                     <span>
+                         <img class="normal-img" src="/assets/images/testimonial/style1/quote.png" alt="Testimonial">
+                         <img class="hover-logo" src="/assets/images/testimonial/style1/quote2.png" alt="Testimonial">
+                     </span>
+                     <p>Sreach Agency, grafik tasarım projelerimizde her zaman özgün ve yaratıcı fikirler sunuyor. Görsel kimliğimizi güçlendirmemize yardımcı oluyorlar.</p>
+                </div>
+                <div class="testi-content">
+                     <div class="testi-information">
+                         <div class="testi-name">Necla Ö.</div>
+                     </div>
+                </div>
+             </div>
+             <div class="testi-item">
+                <div class="item-content">
+                     <span>
+                         <img class="normal-img" src="/assets/images/testimonial/style1/quote.png" alt="Testimonial">
+                         <img class="hover-logo" src="/assets/images/testimonial/style1/quote2.png" alt="Testimonial">
+                     </span>
+                     <p>Logo tasarımından broşürlere kadar, grafik tasarım ihtiyaçlarımızı en iyi şekilde karşılıyorlar. Her zaman işlerimizi profesyonelce ve zamanında teslim ediyorlar.</p>
+                </div>
+                <div class="testi-content">
+                     <div class="testi-information">
+                         <div class="testi-name">Cemal T.</div>
+                     </div>
+                </div>
+             </div>
+             <div class="testi-item">
+                <div class="item-content">
+                     <span>
+                         <img class="normal-img" src="/assets/images/testimonial/style1/quote.png" alt="Testimonial">
+                         <img class="hover-logo" src="/assets/images/testimonial/style1/quote2.png" alt="Testimonial">
+                     </span>
+                     <p>Sreach Agency, reklam kampanyalarımızı etkili bir şekilde yönetiyor. Bütçeyi optimize etmek ve dönüşümleri artırmak konusundaki uzmanlıkları sayesinde, reklam harcamalarımızı en iyi şekilde değerlendiriyoruz.</p>
+                </div>
+                <div class="testi-content">
+                     <div class="testi-information">
+                         <div class="testi-name">Deniz Y.</div>
+                     </div>
+                </div>
+             </div>
+             <div class="testi-item">
+                <div class="item-content">
+                     <span>
+                         <img class="normal-img" src="/assets/images/testimonial/style1/quote.png" alt="Testimonial">
+                         <img class="hover-logo" src="/assets/images/testimonial/style1/quote2.png" alt="Testimonial">
+                     </span>
+                     <p>Reklam yönetimi konusunda Sreach Agency ile çalışmak, işimizi büyütmek ve hedef kitlenize ulaşmak için harika bir yol. Ekip, her kampanyayı titizlikle planlıyor ve sonuçları sürekli izliyor.</p>
+                </div>
+                <div class="testi-content">
+                     <div class="testi-information">
+                         <div class="testi-name">Derya A.</div>
+                     </div>
+                </div>
+             </div>
         </div>
     </div>
     <div class="rs-partner partner-main-home pt-20">
         <div class="container custom">               
            <div class="slider partner-slide-1">
-                   <div class="partner-item">
-                       <div class="logo-img">
-                        <a href="https://devsdesign.net/">
-                            <img class="hovers-logos rs-grid-img" src="assets/images/partner/style1/1.png" title="" alt="">
-                            <img class="mains-logos rs-grid-img " src="assets/images/partner/style1/1.png" title="" alt="">
+                <div class="partner-item">
+                    <div class="logo-img">
+                        <a href="#">
+                            <img class="hovers-logos rs-grid-img" src="/assets/images/bb-clinic.png" title="" alt="">
+                            <img class="mains-logos rs-grid-img " src="assets/images/bb-clinic.png" title="" alt="">
                         </a>
                     </div>
-                   </div>
-                   <div class="partner-item">
-                       <div class="logo-img">
-                        <a href="https://devsdesign.net/">
-                            <img class="hovers-logos rs-grid-img" src="assets/images/partner/style1/2.png" title="" alt="">
-                            <img class="mains-logos rs-grid-img " src="assets/images/partner/style1/2.png" title="" alt="">
+                </div>
+                <div class="partner-item">
+                    <div class="logo-img">
+                        <a href="#">
+                            <img class="hovers-logos rs-grid-img" src="assets/images/beon.png" title="" alt="">
+                            <img class="mains-logos rs-grid-img " src="assets/images/beon.png" title="" alt="">
                         </a>
                     </div>
-                   </div>
-                   <div class="partner-item">
-                       <div class="logo-img">
-                        <a href="https://devsdesign.net/">
-                            <img class="hovers-logos rs-grid-img" src="assets/images/partner/style1/3.png" title="" alt="">
-                            <img class="mains-logos rs-grid-img " src="assets/images/partner/style1/3.png" title="" alt="">
+                </div>
+                <div class="partner-item">
+                    <div class="logo-img">
+                        <a href="#">
+                            <img class="hovers-logos rs-grid-img" src="assets/images/kalamakivilla.png" title="" alt="">
+                            <img class="mains-logos rs-grid-img " src="assets/images/kalamakivilla.png" title="" alt="">
                         </a>
                     </div>
-                   </div>
-                   <div class="partner-item">
-                       <div class="logo-img">
-                        <a href="https://devsdesign.net/">
-                            <img class="hovers-logos rs-grid-img" src="assets/images/partner/style1/4.png" title="" alt="">
-                            <img class="mains-logos rs-grid-img " src="assets/images/partner/style1/4.png" title="" alt="">
+                </div>
+                    <div class="partner-item">
+                        <div class="logo-img">
+                        <a href="#">
+                            <img class="hovers-logos rs-grid-img" src="assets/images/kwm.png" title="" alt="">
+                            <img class="mains-logos rs-grid-img " src="assets/images/kwm.png" title="" alt="">
                         </a>
                     </div>
-                   </div>
-                   <div class="partner-item">
-                       <div class="logo-img">
-                        <a href="https://devsdesign.net/">
-                            <img class="hovers-logos rs-grid-img" src="assets/images/partner/style1/5.png" title="" alt="">
-                            <img class="mains-logos rs-grid-img " src="assets/images/partner/style1/5.png" title="" alt="">
-                        </a>
-                    </div>
-                   </div>
+                </div>
            </div>
         </div>
     </div>
@@ -597,29 +502,22 @@
 <div id="rs-blog" class="rs-blog blog-main-home gray-bg pt-140 pb-145 md-pt-75 md-pb-80">
     <div class="container">  
            <div class="sec-title mb-55 md-mb-35 text-center">
-               <span class="sub-text primary-color">
-                   Our News
-               </span>
-               <h2 class="title">
-                   Latest News
-               </h2>
+               <span class="sub-text primary-color">Sreach</span>
+               <h2 class="title">Blog Yazılarımız</h2>
            </div>
         <div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="false" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="false" data-ipad-device2="2" data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="3" data-md-device-nav="false" data-md-device-dots="false">
             <div class="blog-item">
                 <div class="image-wrap">
-                    <a href="blog-single.html"><img src="assets/images/blog/style1/1.jpg" alt=""></a>
+                    <a href="#"><img src="/assets/images/blog1.jpg" alt=""></a>
                 </div>
                 <div class="blog-content">
                     <ul class="blog-meta">
-                        <li class="admin"><i class="fi fi-rr-user"></i>Devsdesign</li>
-                           <li class="categories"><i class="fi fi-rr-bookmark"></i><a href="#">UX design</a></li>
-                       </ul>
-                    <h3 class="blog-title"><a href="blog-single.html">15 Clever color combinations that make your presentation</a></h3>
+                        <li class="categories"><i class="fi fi-rr-bookmark"></i><a href="#">Web Sitesi Tasarımları</a></li>
+                    </ul>
+                    <h3 class="blog-title"><a href="#">Web sitenizin seo'su için önemli 15 madde</a></h3>
                     <div class="blog-button">
-                        <a href="blog-single.html">
-                              <span class="btn-text">
-                                  read more                           
-                              </span>
+                        <a href="#">
+                              <span class="btn-text">Devamını Gör</span>
                               <i class="fi fi-rr-arrow-right"></i>
                           </a> 
                     </div>
@@ -627,19 +525,16 @@
             </div>
             <div class="blog-item">
                 <div class="image-wrap">
-                    <a href="blog-single.html"><img src="assets/images/blog/style1/2.jpg" alt=""></a>
+                    <a href="#"><img src="/assets/images/blog1.jpg" alt=""></a>
                 </div>
                 <div class="blog-content">
                     <ul class="blog-meta">
-                        <li class="admin"><i class="fi fi-rr-user"></i>Devsdesign</li>
-                           <li class="categories"><i class="fi fi-rr-bookmark"></i><a href="#">UX design</a></li>
-                       </ul>
-                    <h3 class="blog-title"><a href="blog-single.html">What to do when you’re facing designer burnout</a></h3>
+                        <li class="categories"><i class="fi fi-rr-bookmark"></i><a href="#">Web Sitesi Tasarımları</a></li>
+                    </ul>
+                    <h3 class="blog-title"><a href="#">Web sitenizin seo'su için önemli 15 madde</a></h3>
                     <div class="blog-button">
-                        <a href="blog-single.html">
-                              <span class="btn-text">
-                                  read more                           
-                              </span>
+                        <a href="#">
+                              <span class="btn-text">Devamını Gör</span>
                               <i class="fi fi-rr-arrow-right"></i>
                           </a> 
                     </div>
@@ -647,39 +542,16 @@
             </div>
             <div class="blog-item">
                 <div class="image-wrap">
-                    <a href="blog-single.html"><img src="assets/images/blog/style1/3.jpg" alt=""></a>
+                    <a href="#"><img src="/assets/images/blog1.jpg" alt=""></a>
                 </div>
                 <div class="blog-content">
                     <ul class="blog-meta">
-                        <li class="admin"><i class="fi fi-rr-user"></i>Devsdesign</li>
-                           <li class="categories"><i class="fi fi-rr-bookmark"></i><a href="#">UX design</a></li>
-                       </ul>
-                    <h3 class="blog-title"><a href="blog-single.html">5 signs your design strategy needs rethinking</a></h3>
+                        <li class="categories"><i class="fi fi-rr-bookmark"></i><a href="#">Web Sitesi Tasarımları</a></li>
+                    </ul>
+                    <h3 class="blog-title"><a href="#">Web sitenizin seo'su için önemli 15 madde</a></h3>
                     <div class="blog-button">
-                        <a href="blog-single.html">
-                              <span class="btn-text">
-                                  read more                           
-                              </span>
-                              <i class="fi fi-rr-arrow-right"></i>
-                          </a> 
-                    </div>
-                </div>
-            </div>
-            <div class="blog-item">
-                <div class="image-wrap">
-                    <a href="blog-single.html"><img src="assets/images/blog/style1/4.jpg" alt=""></a>
-                </div>
-                <div class="blog-content">
-                    <ul class="blog-meta">
-                        <li class="admin"><i class="fi fi-rr-user"></i>Devsdesign</li>
-                           <li class="categories"><i class="fi fi-rr-bookmark"></i><a href="#">UX design</a></li>
-                       </ul>
-                    <h3 class="blog-title"><a href="blog-single.html">Why Figma Is The Future Of Product Design?</a></h3>
-                    <div class="blog-button">
-                        <a href="blog-single.html">
-                              <span class="btn-text">
-                                  read more                           
-                              </span>
+                        <a href="#">
+                              <span class="btn-text">Devamını Gör</span>
                               <i class="fi fi-rr-arrow-right"></i>
                           </a> 
                     </div>
@@ -689,46 +561,42 @@
     </div>
 </div>
 
-<div class="rs-contact contact-style1 purple-bg">
+<div class="rs-contact contact-style1">
     <div class="container custom">
         <div class="row">
             <div class="col-lg-6 model-img"></div>
             <div class="col-lg-6">
                 <div class="contact-wrap">
                     <div class="sec-title mb-70 md-mb-50">
-                        <span class="sub-text">
-                            Lets talk
-                        </span>
-                        <h2 class="title white-color pb-20">
-                            Have any  project? 
-                        </h2>
+                        <span class="sub-text">Sreach Digital</span>
+                        <h2 class="title pb-20">Hadi İletişime Geç</h2>
                         <p class="desc desc2">
                             Feugiat scelerisque varius morbi enim nunc faucibus a. Semper risus in hendrerit gravida rutrum quisque.
                         </p>
                     </div>
                     <div id="form-messages"></div>
-                    <form id="contact-form" method="post" action="https://rstheme.com/products/html/swipy/mailer.php">
+                    <form id="contact-form" method="post" action="">
                         <fieldset>
                             <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
-                                    <input class="from-control" type="text" id="name" name="name" placeholder="Name" required="">
+                                <div class="col-lg-12 col-md-12 col-sm-12 mb-30">
+                                    <input class="from-control" type="text" id="name" name="name" placeholder="İsim & Soyisim" required="">
                                 </div> 
                                 <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
-                                    <input class="from-control" type="text" id="email" name="email" placeholder="E-Mail" required="">
+                                    <input class="from-control" type="text" id="email" name="email" placeholder="E-Posta" required="">
                                 </div>   
                                 <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
-                                    <input class="from-control" type="text" id="phone" name="phone" placeholder="Phone Number" required="">
+                                    <input class="from-control" type="text" id="phone" name="phone" placeholder="Telefon" required="">
                                 </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
-                                    <input class="from-control" type="text" id="website" name="website" placeholder="Your Website" required="">
+                                <div class="col-lg-12 col-md-12 col-sm-12 mb-30">
+                                    <input class="from-control" type="text" id="company" name="company" placeholder="Firmanız" required="">
                                 </div>
                                 <div class="col-lg-12 mb-30">
-                                    <textarea class="from-control" id="message" name="message" placeholder="Your Message Here" required=""></textarea>
+                                    <textarea class="from-control" id="message" name="message" placeholder="Mesajınız" required=""></textarea>
                                 </div>
                             </div>
                             <div class="btn-part">                                            
-                                <div class="form-group mb-0">
-                                    <input class="readon submit" type="submit" value="Submit Now">
+                                <div class="form-group submit-btn mb-0">
+                                    <button class="submit">Gönder</button>
                                 </div>
                             </div> 
                         </fieldset>
