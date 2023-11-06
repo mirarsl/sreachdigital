@@ -14,3 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [HomeController::class,'index'])->name('home');
+Route::get('{slug}', [HomeController::class,'index'])->name('page');
+Route::get('hizmet/{slug}', [HomeController::class,'index'])->name('service');
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});

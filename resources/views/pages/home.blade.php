@@ -5,143 +5,39 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="content-wrap">
-                    <h1 class="title">Sonsuz Dijital Başarı</h1>
-                    <div class="description">
-                        <p>Sreach Agency ile, deneyimli ve uzman ekibimizle, dijital ihtiyaçlarınıza sonsuz ve etkili çözümler sunuyoruz. Her projeyi özgün kılarak, sonsuz dijital pazarlama başarısına giden yolu inşa ediyoruz.</p>
-                    </div>
+                    {!! $Page->text !!}
                     <ul class="banner-bottom">
-                        <li><a class="readon started" href="#">İletişime Geç</a></li>
+                        <li><a class="readon started" href="route('page','iletisim')">İletişime Geç</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-6 align-items-center">
                 <div class="main-img text-right md-text-center">
-                    <img src="/assets/images/slider.svg" alt="Images">
+                    <img src="{{asset($Page->banner)}}" alt="{{setting('site.title')}}">
                 </div>
             </div>
         </div>
     </div>
     <div class="banner-animate">
-        <img class="animation-style one scale" src="/assets/images/banner/main-home/hero-shpae-min.png" alt="Images">
-        <img class="animation-style two rotated-style" src="/assets/images/banner/main-home/shape1.png" alt="Images">
-        <img class="animation-style three veritcal" src="/assets/images/banner/main-home/shape2.png" alt="Images">
-        <img class="animation-style four spine" src="/assets/images/banner/main-home/shape3.png" alt="Images">
-        <img class="animation-style five veritcal" src="/assets/images/banner/main-home/shape4.png" alt="Images">
-        <img class="animation-style six veritcal" src="/assets/images/banner/main-home/shape5.png" alt="Images">
-        <img class="animation-style seven rotated-style" src="/assets/images/banner/main-home/shape6.png" alt="Images">
-        <img class="animation-style eight scale" src="/assets/images/banner/main-home/dot1.png" alt="Images">
-        <img class="animation-style nine scale" src="/assets/images/banner/main-home/dot2.png" alt="Images">
-        <img class="animation-style ten scale" src="/assets/images/banner/main-home/dot2.png" alt="Images">
+        <img class="animation-style one scale" src="{{asset('pages/main-home/hero-shpae-min.png')}}" alt="Hero Shpae Min">
+        <img class="animation-style two rotated-style" src="{{asset('pages/main-home/shape1.png')}}" alt="Shape1">
+        <img class="animation-style three veritcal" src="{{asset('pages/main-home/shape2.png')}}" alt="Shape2">
+        <img class="animation-style four spine" src="{{asset('pages/main-home/shape3.png')}}" alt="Shape3">
+        <img class="animation-style five veritcal" src="{{asset('pages/main-home/shape4.png')}}" alt="Shape4">
+        <img class="animation-style six veritcal" src="{{asset('pages/main-home/shape5.png')}}" alt="Shape5">
+        <img class="animation-style seven rotated-style" src="{{asset('pages/main-home/shape6.png')}}" alt="Shape6">
+        <img class="animation-style eight scale" src="{{asset('pages/main-home/dot1.png')}}" alt="dot1">
+        <img class="animation-style nine scale" src="{{asset('pages/main-home/dot2.png')}}" alt="dot2">
+        <img class="animation-style ten scale" src="{{asset('pages/main-home/dot2.png')}}" alt="dot3">
     </div>
 </div>
-<div class="rs-services services-style3 pt-125 pb-130 md-pt-75 md-pb-80">
-    <div class="container">
-        <div class="row y-middle">
-            <div class="col-lg-5 pr-18 md-pr-15 md-mb-50">
-                <div class="sec-title2">
-                    <span class="sub-text">Neler Yapıyoruz?</span>
-                    <h2 class="title title8 pb-35">
-                        Tüm İhtiyaçlarınızı <span>SreachAgency</span> ile karşılayın
-                    </h2>
-                    <p class="desc pb-50 md-pb-35">
-                        Darkness they’re, moved whales great or void great man one man from blessed so our. Dominion good face was.
-                    </p>
-                    <div class="btn-part">
-                        <a class="readon red get-bdr" href="#">İletişime Geç</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-7">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 mb-40">
-                        <div class="services-item">
-                            <a href="">
-                            <div class="services-wrap">
-                                <div class="services-img">
-                                    <img src="assets/images/web.svg" alt="Images">
-                                </div>
-                                <div class="services-content">
-                                    <h2 class="title">Web Sitesi Tasarımları</h2>
-                                    <p class="services-txt">Kurumsal,E-Ticaret,Kişisel Blog,Landing Page ve Özel Tasarım Web Siteleri</p>
-                                </div>
-                            </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 mb-40">
-                        <a href="">
-                            <div class="services-item">
-                                <div class="services-wrap">
-                                    <div class="services-img">
-                                        <img src="assets/images/digital.svg" alt="Images">
-                                    </div>
-                                    <div class="services-content">
-                                        <h2 class="title">Dijital Reklam Yönetimi</h2>
-                                        <p class="services-txt">Dijital pazarlama ajansı olarak, sosyal medya ve dijital platformlardaki reklam kampanyalarınızı profesyonel bir şekilde yönetiyoruz.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-6 col-md-6 sm-mb-40">
-                        <a href="">
-                            <div class="services-item">
-                                <div class="services-wrap">
-                                    <div class="services-img">
-                                        <img src="assets/images/socialmedia.svg" alt="Images">
-                                    </div>
-                                    <div class="services-content">
-                                        <h2 class="title">Sosyal Medya Yönetimi</h2>
-                                        <p class="services-txt">Sosyal medya hesaplarınız için özgün içerik üretimi, tasarım, ve paylaşım hizmetleri sunuyoruz.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                       <a href="">
-                        <div class="services-item">
-                            <div class="services-wrap">
-                                <div class="services-img">
-                                    <img src="assets/images/graphic.svg" alt="Images">
-                                </div>
-                                <div class="services-content">
-                                    <h2 class="title">Grafik & tasarım Hizmetleri</h2>
-                                    <p class="services-txt">Logo kartvizit katalog broşür ve benzeri materyallerin grafik tasarım hizmeti sunuyoruz</p>
-                                </div>
-                            </div>
-                        </div>
-                       </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="rs-about about-style1 pt-145 pb-150 md-pt-75 md-pb-80">
-    <div class="container">
-        <div class="row y-middle">
-            <div class="col-lg-6 md-mb-50">
-                <div class="sec-title2">
-                    <h2 class="title title4 pb-38">
-                        Neden SreachAgency?
-                    </h2>
-                    <div class="desc">
-                        <p>Sreach Agency olarak, dijital dünyadaki tüm ihtiyaçlarınızı karşılayacak dinamik çözümler sunuyoruz! 2016 yılından bu yana gelişen ve büyüyen ekibimiz, 360 derece hizmet sunma kapasitesine sahiptir. Sreach Agency, dijital pazarlama alanında uzmanlaşmış olmasının yanı sıra 10'dan fazla alanda hizmet sunmaktadır. Projelerin her aşamasında teknik destek sağlarken aynı zamanda danışmanlık ve çözüm hizmetleri de sunmaktayız.</p>
-                    </div>
-                    <div class="btn-part mt-20">
-                        <a class="readon red get-started2" href="#">İletişime Geç</a>
-                    </div>
-                </div>	
-            </div>
-            <div class="col-lg-6">
-                <div class="about-home10">
-                    <img class="js-tilt" src="/assets/images/about.svg" alt="About">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+@foreach ($Page->modules as $module)
+    @if (View::exists('modules.' . $module->slug))
+        @include('modules.' . $module->slug, ['module' => $module])
+    @else
+        @include('modules.default', ['module' => $module])
+    @endif
+@endforeach
 
 <div class="rs-project project-style1 bg2 pt-153 pb-160 md-pt-75 md-pb-80">
     <div class="container">
