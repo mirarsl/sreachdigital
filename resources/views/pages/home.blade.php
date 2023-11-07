@@ -38,44 +38,7 @@
         @include('modules.default', ['module' => $module])
     @endif
 @endforeach
-<div class="rs-partner partner-main-home pt-20">
-    <div class="container custom">               
-       <div class="slider partner-slide-1">
-            <div class="partner-item">
-                <div class="logo-img">
-                    <a href="#">
-                        <img class="hovers-logos rs-grid-img" src="/assets/images/bb-clinic.png" title="" alt="">
-                        <img class="mains-logos rs-grid-img " src="assets/images/bb-clinic.png" title="" alt="">
-                    </a>
-                </div>
-            </div>
-            <div class="partner-item">
-                <div class="logo-img">
-                    <a href="#">
-                        <img class="hovers-logos rs-grid-img" src="assets/images/beon.png" title="" alt="">
-                        <img class="mains-logos rs-grid-img " src="assets/images/beon.png" title="" alt="">
-                    </a>
-                </div>
-            </div>
-            <div class="partner-item">
-                <div class="logo-img">
-                    <a href="#">
-                        <img class="hovers-logos rs-grid-img" src="assets/images/kalamakivilla.png" title="" alt="">
-                        <img class="mains-logos rs-grid-img " src="assets/images/kalamakivilla.png" title="" alt="">
-                    </a>
-                </div>
-            </div>
-                <div class="partner-item">
-                    <div class="logo-img">
-                    <a href="#">
-                        <img class="hovers-logos rs-grid-img" src="assets/images/kwm.png" title="" alt="">
-                        <img class="mains-logos rs-grid-img " src="assets/images/kwm.png" title="" alt="">
-                    </a>
-                </div>
-            </div>
-       </div>
-    </div>
-</div>
+
 
 <div id="rs-blog" class="rs-blog blog-main-home gray-bg pt-140 pb-145 md-pt-75 md-pb-80">
     <div class="container">  
