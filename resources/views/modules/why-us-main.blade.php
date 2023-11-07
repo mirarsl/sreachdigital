@@ -7,7 +7,7 @@
                         {{$module->title}}
                     </h2>
                     <div class="desc">
-                        {{$module->text}}
+                        {!! $module->text !!}
                     </div>
                     <div class="btn-part mt-20">
                         <a class="readon red get-started2" href="{{$module->url}}">{{$module->button}}</a>

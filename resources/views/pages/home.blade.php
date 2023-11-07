@@ -38,360 +38,42 @@
         @include('modules.default', ['module' => $module])
     @endif
 @endforeach
-
-<div class="rs-project project-style1 bg2 pt-153 pb-160 md-pt-75 md-pb-80">
-    <div class="container">
-        <div class="row y-middle">
-            <div class="col-lg-6 mb-60">
-                <div class="sec-title">
-                    <span class="sub-text">Referanslarımız</span>
-                    <h2 class="title white-color">Müşterilerimize özel üretimlerimiz</h2>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="project-button text-right md-left mt--40 md-mb-70">
-                    <a class="portfolio-single-column" href="#">
-                        Tümünü Gör
-                        <i class="fa fi fi-rr-arrow-right"></i>
+<div class="rs-partner partner-main-home pt-20">
+    <div class="container custom">               
+       <div class="slider partner-slide-1">
+            <div class="partner-item">
+                <div class="logo-img">
+                    <a href="#">
+                        <img class="hovers-logos rs-grid-img" src="/assets/images/bb-clinic.png" title="" alt="">
+                        <img class="mains-logos rs-grid-img " src="assets/images/bb-clinic.png" title="" alt="">
                     </a>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6 mb-30">
-                <div class="project-item">
-                    <div class="project-img">
-                        <a href="#">
-                            <img src="assets/images/project1.jpeg" alt="Images">
-                        </a>
-                    </div>
-                    <div class="project-content">
-                        <span class="category"><a href="#">Sosyal Medya Yönetimi</a></span>
-                        <h3 class="title"><a href="#">BEON İnşaat Elektromekanik</a></h3>
-                    </div>
+            <div class="partner-item">
+                <div class="logo-img">
+                    <a href="#">
+                        <img class="hovers-logos rs-grid-img" src="assets/images/beon.png" title="" alt="">
+                        <img class="mains-logos rs-grid-img " src="assets/images/beon.png" title="" alt="">
+                    </a>
                 </div>
             </div>
-            <div class="col-lg-6 mb-30">
-                <div class="project-item">
-                    <div class="project-img">
-                        <a href="#">
-                            <img src="assets/images/project2.jpeg" alt="Images">
-                        </a>
-                    </div>
-                    <div class="project-content">
-                        <span class="category"><a href="#">Sosyal Medya Yönetimi</a></span>
-                        <h3 class="title"><a href="#">Kalamaki Villa</a></h3>
-                    </div>
+            <div class="partner-item">
+                <div class="logo-img">
+                    <a href="#">
+                        <img class="hovers-logos rs-grid-img" src="assets/images/kalamakivilla.png" title="" alt="">
+                        <img class="mains-logos rs-grid-img " src="assets/images/kalamakivilla.png" title="" alt="">
+                    </a>
                 </div>
             </div>
-            <div class="col-lg-6 md-mb-30">
-                <div class="project-item">
-                    <div class="project-img">
-                        <a href="#">
-                            <img src="assets/images/project3.jpeg" alt="Images">
-                        </a>
-                    </div>
-                    <div class="project-content">
-                        <span class="category"><a href="#">Sosyal Medya Yönetimi</a></span>
-                        <h3 class="title"><a href="#">BB Clinic</a></h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="project-item">
-                    <div class="project-img">
-                        <a href="#">
-                            <img src="assets/images/project4.jpeg" alt="Images">
-                        </a>
-                    </div>
-                    <div class="project-content">
-                        <span class="category"><a href="#">Sosyal Medya Yönetimi</a></span>
-                        <h3 class="title"><a href="#">KWM Marin</a></h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="project-animate">
-        <div class="pro-animation left-arrow">
-            <img class="veritcal" src="assets/images/project/line.png" alt="Project">
-        </div>
-        <div class="pro-animation right-arrow">
-            <img class="veritcal" src="assets/images/project/line.png" alt="Project">
-        </div>
-    </div>
-</div>
-
-<div class="rs-faq faq-style1 bg3 pt-153 pb-160 md-pt-75 md-pb-80">
-    <div class="container">
-       <div class="row y-middle">
-            <div class="col-lg-6 md-mb-50">	
-                <div class="sec-title mb-55">
-                    <span class="sub-text primary-color">Sreach Digital</span>
-                    <h2 class="title">Çalışma Aşamaları</h2>
-                </div>		   			
-            <div class="faq-content">
-                <div id="accordion" class="accordion">
-                    <div class="card">
-                        <div class="card-header">
-                            <a class="card-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true">Süreç Nasıl İlerliyor?</a>
-                        </div>
-                        <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
-                            <div class="card-body">İlgili ihtiyacın detaylarını sizden aldıktan sonra,hizmetin uzmanlarımız tarafından analiz yapılır ve sürecin nasıl ilerleyeceğine dair bilgilendirme yapılır</div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header">
-                            <a class="card-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false">Nasıl İlerliyoruz?</a>
-                        </div>
-                        <div id="collapseTwo" class="collapse" data-bs-parent="#accordion" style="">
-                            <div class="card-body">
-                                Sit amet mauris commodo quis imperdiet massa tincidunt. Ut
-                                enim blandit volutpat maecenas.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header">
-                            <a class="card-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false">Nasıl teslim ediyoruz?</a>
-                        </div>
-                        <div id="collapseThree" class="collapse" data-bs-parent="#accordion" style="">
-                            <div class="card-body">
-                                Sit amet mauris commodo quis imperdiet massa tincidunt. Ut
-                                    enim blandit volutpat maecenas.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header">
-                            <a class="card-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false">Nasıl destek veriyoruz?</a>
-                        </div>
-                        <div id="collapseFour" class="collapse" data-bs-parent="#accordion" style="">
-                            <div class="card-body">
-                                Sit amet mauris commodo quis imperdiet massa tincidunt. Ut
-                                enim blandit volutpat maecenas.
-                            </div>
-                        </div>
-                    </div> 
-                </div>
-            </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="faq-img">
-                    <img src="/assets/images/process.svg" alt="">
+                <div class="partner-item">
+                    <div class="logo-img">
+                    <a href="#">
+                        <img class="hovers-logos rs-grid-img" src="assets/images/kwm.png" title="" alt="">
+                        <img class="mains-logos rs-grid-img " src="assets/images/kwm.png" title="" alt="">
+                    </a>
                 </div>
             </div>
        </div>
-    </div>
-    <div class="faq-animation">
-        <div class="animate one">
-            <img src="assets/images/process/style1/dot1.png" alt="About">
-        </div>
-        <div class="animate two">
-            <img src="assets/images/process/style1/dot2.png" alt="About">
-        </div>
-        <div class="animate three">
-            <img src="assets/images/process/style1/dot3.png" alt="About">
-        </div>
-        <div class="animate four">
-            <img src="assets/images/process/style1/dot4.png" alt="About">
-        </div>
-    </div>
-</div>
-
-<div id="rs-testimonial" class="rs-testimonial testimonial-style1 pt-153 pb-100 md-pt-80 md-pb-50">
-    <div class="container custom2">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="sec-title mb-55 md-mb-0">
-                    <span class="sub-text">Sreach Digital</span>
-                    <h2 class="title">Müşteri Yorumları</h2>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container custom">
-        <div class="slider testi-slide-1">
-
-            <div class="testi-item">
-               <div class="item-content">
-                    <span>
-                        <img class="normal-img" src="/assets/images/testimonial/style1/quote.png" alt="Testimonial">
-                        <img class="hover-logo" src="/assets/images/testimonial/style1/quote2.png" alt="Testimonial">
-                    </span>
-                    <p>Sreach Agency, sosyal medya yönetiminde mükemmel bir iş çıkarıyor. Markamızın online varlığını büyütmek için harika stratejiler geliştiriyorlar. Her zaman müşterilerimize daha yakın hissettiriyorlar.</p>
-               </div>
-               <div class="testi-content">
-                    <div class="testi-information">
-                        <div class="testi-name">Mehmet A</div>
-                    </div>
-               </div>
-            </div>
-            <div class="testi-item">
-                <div class="item-content">
-                     <span>
-                         <img class="normal-img" src="/assets/images/testimonial/style1/quote.png" alt="Testimonial">
-                         <img class="hover-logo" src="/assets/images/testimonial/style1/quote2.png" alt="Testimonial">
-                     </span>
-                     <p>Sreach Agency ekibi, sosyal medya kampanyalarını yürütmede gerçekten profesyonel. Hedef kitlenize ulaşmak ve etkileşimi artırmak için ihtiyacınız olan desteği sağlıyorlar.</p>
-                </div>
-                <div class="testi-content">
-                     <div class="testi-information">
-                         <div class="testi-name">Ayşe B</div>
-                     </div>
-                </div>
-             </div>
-             <div class="testi-item">
-                <div class="item-content">
-                     <span>
-                         <img class="normal-img" src="/assets/images/testimonial/style1/quote.png" alt="Testimonial">
-                         <img class="hover-logo" src="/assets/images/testimonial/style1/quote2.png" alt="Testimonial">
-                     </span>
-                     <p>Sreach Agency, web sitemizin tasarımını baştan aşağı yeniden yaparak işimizi nasıl daha çekici ve etkili hale getirebileceğimizi gösterdi. Sonuç mükemmel oldu!</p>
-                </div>
-                <div class="testi-content">
-                     <div class="testi-information">
-                         <div class="testi-name">Emre Ç</div>
-                     </div>
-                </div>
-             </div>
-             <div class="testi-item">
-                <div class="item-content">
-                     <span>
-                         <img class="normal-img" src="/assets/images/testimonial/style1/quote.png" alt="Testimonial">
-                         <img class="hover-logo" src="/assets/images/testimonial/style1/quote2.png" alt="Testimonial">
-                     </span>
-                     <p>Web sitemizi yeniden tasarlamak için Sreach Agency ile çalışmak harikaydı. Kullanıcı deneyimi mükemmel ve site hızı arttı. Müşterilerimizden çok olumlu geri bildirimler aldık.</p>
-                </div>
-                <div class="testi-content">
-                     <div class="testi-information">
-                         <div class="testi-name">Elif D.</div>
-                     </div>
-                </div>
-             </div>
-             <div class="testi-item">
-                <div class="item-content">
-                     <span>
-                         <img class="normal-img" src="/assets/images/testimonial/style1/quote.png" alt="Testimonial">
-                         <img class="hover-logo" src="/assets/images/testimonial/style1/quote2.png" alt="Testimonial">
-                     </span>
-                     <p>E-ticaret konusunda Sreach Agency ile çalışmak büyük bir kolaylık oldu. Sitemizi optimize ettiler ve dönüşümleri artırmamıza yardımcı oldular. Ekip her adımda profesyonel ve ilgiliydi.</p>
-                </div>
-                <div class="testi-content">
-                     <div class="testi-information">
-                         <div class="testi-name">Ali R.</div>
-                     </div>
-                </div>
-             </div>
-             <div class="testi-item">
-                <div class="item-content">
-                     <span>
-                         <img class="normal-img" src="/assets/images/testimonial/style1/quote.png" alt="Testimonial">
-                         <img class="hover-logo" src="/assets/images/testimonial/style1/quote2.png" alt="Testimonial">
-                     </span>
-                     <p>Sreach Agency, e-ticaret işimize ivme kazandırdı. Müşteri tabanımızı genişletmemize ve çevrimiçi satışlarımızı artırmamıza yardımcı oldular. İşbirliği yapmaktan çok memnunuz.</p>
-                </div>
-                <div class="testi-content">
-                     <div class="testi-information">
-                         <div class="testi-name">Burcu K.</div>
-                     </div>
-                </div>
-             </div>
-             <div class="testi-item">
-                <div class="item-content">
-                     <span>
-                         <img class="normal-img" src="/assets/images/testimonial/style1/quote.png" alt="Testimonial">
-                         <img class="hover-logo" src="/assets/images/testimonial/style1/quote2.png" alt="Testimonial">
-                     </span>
-                     <p>Sreach Agency, grafik tasarım projelerimizde her zaman özgün ve yaratıcı fikirler sunuyor. Görsel kimliğimizi güçlendirmemize yardımcı oluyorlar.</p>
-                </div>
-                <div class="testi-content">
-                     <div class="testi-information">
-                         <div class="testi-name">Necla Ö.</div>
-                     </div>
-                </div>
-             </div>
-             <div class="testi-item">
-                <div class="item-content">
-                     <span>
-                         <img class="normal-img" src="/assets/images/testimonial/style1/quote.png" alt="Testimonial">
-                         <img class="hover-logo" src="/assets/images/testimonial/style1/quote2.png" alt="Testimonial">
-                     </span>
-                     <p>Logo tasarımından broşürlere kadar, grafik tasarım ihtiyaçlarımızı en iyi şekilde karşılıyorlar. Her zaman işlerimizi profesyonelce ve zamanında teslim ediyorlar.</p>
-                </div>
-                <div class="testi-content">
-                     <div class="testi-information">
-                         <div class="testi-name">Cemal T.</div>
-                     </div>
-                </div>
-             </div>
-             <div class="testi-item">
-                <div class="item-content">
-                     <span>
-                         <img class="normal-img" src="/assets/images/testimonial/style1/quote.png" alt="Testimonial">
-                         <img class="hover-logo" src="/assets/images/testimonial/style1/quote2.png" alt="Testimonial">
-                     </span>
-                     <p>Sreach Agency, reklam kampanyalarımızı etkili bir şekilde yönetiyor. Bütçeyi optimize etmek ve dönüşümleri artırmak konusundaki uzmanlıkları sayesinde, reklam harcamalarımızı en iyi şekilde değerlendiriyoruz.</p>
-                </div>
-                <div class="testi-content">
-                     <div class="testi-information">
-                         <div class="testi-name">Deniz Y.</div>
-                     </div>
-                </div>
-             </div>
-             <div class="testi-item">
-                <div class="item-content">
-                     <span>
-                         <img class="normal-img" src="/assets/images/testimonial/style1/quote.png" alt="Testimonial">
-                         <img class="hover-logo" src="/assets/images/testimonial/style1/quote2.png" alt="Testimonial">
-                     </span>
-                     <p>Reklam yönetimi konusunda Sreach Agency ile çalışmak, işimizi büyütmek ve hedef kitlenize ulaşmak için harika bir yol. Ekip, her kampanyayı titizlikle planlıyor ve sonuçları sürekli izliyor.</p>
-                </div>
-                <div class="testi-content">
-                     <div class="testi-information">
-                         <div class="testi-name">Derya A.</div>
-                     </div>
-                </div>
-             </div>
-        </div>
-    </div>
-    <div class="rs-partner partner-main-home pt-20">
-        <div class="container custom">               
-           <div class="slider partner-slide-1">
-                <div class="partner-item">
-                    <div class="logo-img">
-                        <a href="#">
-                            <img class="hovers-logos rs-grid-img" src="/assets/images/bb-clinic.png" title="" alt="">
-                            <img class="mains-logos rs-grid-img " src="assets/images/bb-clinic.png" title="" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="partner-item">
-                    <div class="logo-img">
-                        <a href="#">
-                            <img class="hovers-logos rs-grid-img" src="assets/images/beon.png" title="" alt="">
-                            <img class="mains-logos rs-grid-img " src="assets/images/beon.png" title="" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="partner-item">
-                    <div class="logo-img">
-                        <a href="#">
-                            <img class="hovers-logos rs-grid-img" src="assets/images/kalamakivilla.png" title="" alt="">
-                            <img class="mains-logos rs-grid-img " src="assets/images/kalamakivilla.png" title="" alt="">
-                        </a>
-                    </div>
-                </div>
-                    <div class="partner-item">
-                        <div class="logo-img">
-                        <a href="#">
-                            <img class="hovers-logos rs-grid-img" src="assets/images/kwm.png" title="" alt="">
-                            <img class="mains-logos rs-grid-img " src="assets/images/kwm.png" title="" alt="">
-                        </a>
-                    </div>
-                </div>
-           </div>
-        </div>
     </div>
 </div>
 

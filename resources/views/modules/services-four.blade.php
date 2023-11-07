@@ -13,7 +13,7 @@
             </div>
             <div class="col-lg-7">
                 <div class="row">
-                    @foreach ($module->data() as $service)
+                    @foreach ($module->data()->sortBy('ordering') as $service)
                     <div class="col-lg-6 col-md-6 mb-40">
                         <div class="services-item">
                             <a href="{{route('service',$service->slug)}}">
