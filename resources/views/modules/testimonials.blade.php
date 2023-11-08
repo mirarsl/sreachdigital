@@ -21,9 +21,9 @@
                             <p>{{$testimonial->text}}</p>
                     </div>
                     <div class="testi-content">
-                            <div class="testi-information">
-                                <div class="testi-name">{{$testimonial->title}}</div>
-                            </div>
+                        <div class="testi-information">
+                            <div class="testi-name">{{$testimonial->title}}</div>
+                        </div>
                     </div>
                 </div>
             @endforeach

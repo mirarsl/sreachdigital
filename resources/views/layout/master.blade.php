@@ -53,7 +53,7 @@
 											<nav class="rs-menu hidden-md">
 												<ul class="nav-menu">
 													<li class="menu-item current-menu-item"><a href="{{route('home')}}">Anasayfa</a></li>
-													<li class="menu-item"><a href="#">Biz Kimiz</a></li>
+													<li class="menu-item"><a href="biz-kimiz">Biz Kimiz</a></li>
 													<li class="menu-item-has-children">
                                                         <a href="#">Neler Yapıyoruz?</a>
                                                         <ul class="sub-menu">
