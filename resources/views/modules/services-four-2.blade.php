@@ -8,6 +8,7 @@
             @foreach ($module->data() as $service)
                 <div class="col-xl-3 col-md-6 xl-mb-30">
                     <div class="services-item h-100">
+                        <a href="{{route('service',$service->slug)}}">
                         <div class="services-wrap h-100">
                             @if (!(empty($service->image)))
                                 <div class="services-img">
@@ -19,6 +20,7 @@
                                 <p class="services-txt">{{substr($service->short_text,0,100)}}..</p>
                             </div>
                         </div>
+                        </a>
                     </div>
                 </div>
             @endforeach
