@@ -13,7 +13,7 @@
             </div>
             <div class="col-lg-6 align-items-center">
                 <div class="main-img text-right md-text-center">
-                    <img src="{{asset($Page->banner)}}" alt="{{setting('site.title')}}">
+                    <img src="{{asset($Page->image)}}" alt="{{setting('site.title')}}">
                 </div>
             </div>
         </div>

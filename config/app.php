@@ -177,6 +177,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        Artesaos\SEOTools\Providers\SEOToolsServiceProvider::class,
+
     ],
 
     /*
@@ -191,7 +193,7 @@ return [
     */
 
     'aliases' => Facade::defaultAliases()->merge([
-        // ...
+        'SEO' => Artesaos\SEOTools\Facades\SEOTools::class,
     ])->toArray(),
 
 ];

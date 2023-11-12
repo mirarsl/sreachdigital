@@ -3,11 +3,11 @@
 <head>
 		<base href="{{url('/')}}">
 		<meta charset="utf-8">
-		<title>{{setting('site.title')}}</title>
+		{!! SEO::generate() !!}
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="apple-touch-icon" href="apple-touch-icon.html">
-		<link rel="shortcut icon" type="image/x-icon" href="/assets/images/fav.png">
+		<link rel="shortcut icon" type="image/x-icon" href="{{asset(setting('site.favicon'))}}">
 		<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="/assets/css/uicons-regular-rounded.css">
@@ -29,7 +29,7 @@
 	   	<div id="pre-load">
             <div id="loader" class="loader">
                 <div class="loader-container">
-                    <div class="loader-icon"><img src="/assets/images/favicon.png" alt="{{setting('site.title')}}"></div>
+                    <div class="loader-icon"><img src="{{asset(setting('site.favicon'))}}" alt="{{setting('site.title')}}"></div>
                 </div>
             </div>              
         </div>
@@ -53,8 +53,8 @@
 										<div class="main-menu">
 											<nav class="rs-menu hidden-md">
 												<ul class="nav-menu">
-													<li class="menu-item current-menu-item"><a href="{{route('home')}}">Anasayfa</a></li>
-													<li class="menu-item"><a href="{{route('page','biz-kimiz')}}">Biz Kimiz</a></li>
+													<li class="menu-item {{Route::currentRouteName() == 'home' ? 'current-menu-item':''}}"><a href="{{route('home')}}">Anasayfa</a></li>
+													<li class="menu-item {{Route::currentRouteName() == 'page' ? 'current-menu-item':''}}"><a href="{{route('page','biz-kimiz')}}">Biz Kimiz</a></li>
 													<li class="menu-item-has-children">
                                                         <a href="{{route('page','neler-yapiyoruz')}}">Neler Yapıyoruz?</a>
                                                         <ul class="sub-menu">
@@ -111,7 +111,12 @@
 					            	    </div>
 					            	    <div class="info-content">
 					            	        <h4 class="title">E-Posta</h4>
-					            	        <em><a href="mailto:sreachagency@gmail.com">sreachagency@gmail.com</a></em>
+					            	        @if (!(empty($sharedContent['Contact']->email1)))
+					                      	<em><a href="mailto:{{$sharedContent['Contact']->email1}}">{{$sharedContent['Contact']->email1}}</a></em>
+										  @endif
+										  @if (!(empty($sharedContent['Contact']->email2)))
+					                      	<em><a href="mailto:{{$sharedContent['Contact']->email2}}">{{$sharedContent['Contact']->email2}}</a></em>
+										  @endif
 					            	    </div>
 					            	 </div>
 					            	<div class="address-list">
@@ -120,16 +125,40 @@
 					            	    </div>
 					            	    <div class="info-content">
 					            	      <h4 class="title">Telefon</h4>
-					            	      <em><a href="tel:">(90) 123 456 78 90</a></em>
+					            	      @if (!(empty($sharedContent['Contact']->phone1)))
+					                      <em>{{$sharedContent['Contact']->phone1}}</em>
+										  @endif
+										  @if (!(empty($sharedContent['Contact']->phone2)))
+					                      <em>{{$sharedContent['Contact']->phone2}}</em>
+										  @endif
 					            	    </div>
 					            	</div>
 					            </div>
 					            <ul class="social">
-					                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-					                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-					                <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
-					                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-					                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+					                @if (!(empty($sharedContent['Social']->facebook)))
+										<li><a href="{{$sharedContent['Social']->facebook}}"><i class="fa fa-facebook"></i></a></li>                     
+									@endif
+									@if (!(empty($sharedContent['Social']->twitter)))
+										<li><a href="{{$sharedContent['Social']->twitter}}"><i class="fa fa-twitter"></i></a></li>                     
+									@endif
+									@if (!(empty($sharedContent['Social']->instagram)))
+										<li><a href="{{$sharedContent['Social']->instagram}}"><i class="fa fa-instagram"></i></a></li>                     
+									@endif
+									@if (!(empty($sharedContent['Social']->youtube)))
+										<li><a href="{{$sharedContent['Social']->youtube}}"><i class="fa fa-youtube"></i></a></li>                     
+									@endif
+									@if (!(empty($sharedContent['Social']->linkedin)))
+										<li><a href="{{$sharedContent['Social']->linkedin}}"><i class="fa fa-linkedin"></i></a></li>                     
+									@endif
+									@if (!(empty($sharedContent['Social']->pinterest)))
+										<li><a href="{{$sharedContent['Social']->pinterest}}"><i class="fa fa-pinterest"></i></a></li>                     
+									@endif
+									@if (!(empty($sharedContent['Social']->behance)))
+										<li><a href="{{$sharedContent['Social']->behance}}"><i class="fa fa-behance"></i></a></li>                     
+									@endif
+									@if (!(empty($sharedContent['Social']->medium)))
+										<li><a href="{{$sharedContent['Social']->medium}}"><i class="fa fa-medium"></i></a></li>                     
+									@endif
 					            </ul>
 					        </div>
 					    </div>
