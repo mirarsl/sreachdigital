@@ -6420,6 +6420,7 @@ body .search-modal .close:hover {
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, -webkit-box-shadow 0.3s;
   border-radius: 30px 30px 30px 30px;
   box-shadow: 38px 45px 93px -10px rgba(0, 0, 0, 0.05);
+  height: 100%;
 }
 .rs-services.services-main-home .services-item .services-wrap {
   text-align: center;
@@ -6430,9 +6431,9 @@ body .search-modal .close:hover {
   background-image: linear-gradient(137deg, #ffffff 0%, #ffffff 73 100%);
 }
 .rs-services.services-main-home .services-item .services-wrap .services-img img {
-  height: 110px;
-  width: 110px;
-  max-width: unset;
+    max-height: 200px;
+    width: 100%;
+    object-fit: contain;
 }
 .rs-services.services-main-home .services-item .services-wrap .services-content {
   margin: 28px 0px 0px 0px;
@@ -6718,8 +6719,8 @@ body .search-modal .close:hover {
   margin: 0 3px 0 3px;
 }
 .rs-services.services-style5 .services-item .services-wrap .services-img img {
-  height: 93px;
-  width: 66px;
+  height: 120px;
+  width: 120px;
   max-width: unset;
 }
 .rs-services.services-style5 .services-item .services-wrap .services-content {

@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="tr"> 
 <head>
+		<base href="{{url('/')}}">
 		<meta charset="utf-8">
-		<title>Sreach Digital</title>
+		<title>{{setting('site.title')}}</title>
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="apple-touch-icon" href="apple-touch-icon.html">
@@ -28,7 +29,7 @@
 	   	<div id="pre-load">
             <div id="loader" class="loader">
                 <div class="loader-container">
-                    <div class="loader-icon"><img src="/assets/images/favicon.png" alt="Swipy Creative Agency Html Template "></div>
+                    <div class="loader-icon"><img src="/assets/images/favicon.png" alt="{{setting('site.title')}}"></div>
                 </div>
             </div>              
         </div>
@@ -42,8 +43,8 @@
 								<div class="col-cell header-logo">                                  
 								    <div class="logo-area">
 								        <a href="{{route('home')}}">
-								            <img class="normal-logo" src="/assets/images/logo.svg" alt="logo">  
-								            <img class="sticky-logo" src="/assets/images/logo.svg" alt="logo">
+								            <img class="normal-logo" src="{{asset(setting('site.logo'))}}" alt="{{setting('site.title')}}">  
+								            <img class="sticky-logo" src="{{asset(setting('site.logo'))}}" alt="{{setting('site.title')}}">
 								        </a>
 								    </div>
 								</div>
@@ -53,21 +54,18 @@
 											<nav class="rs-menu hidden-md">
 												<ul class="nav-menu">
 													<li class="menu-item current-menu-item"><a href="{{route('home')}}">Anasayfa</a></li>
-													<li class="menu-item"><a href="biz-kimiz">Biz Kimiz</a></li>
+													<li class="menu-item"><a href="{{route('page','biz-kimiz')}}">Biz Kimiz</a></li>
 													<li class="menu-item-has-children">
-                                                        <a href="#">Neler Yapıyoruz?</a>
+                                                        <a href="{{route('page','neler-yapiyoruz')}}">Neler Yapıyoruz?</a>
                                                         <ul class="sub-menu">
-                                                            <li><a href="#">Web Sitesi Tasarımları</a></li>
-                                                            <li><a href="#">E-Ticaret Web Sitesi</a></li>
-                                                            <li><a href="#">Web Uygulama Yazılımları</a></li>
-                                                            <li><a href="#">Dijital Reklam Yönetimi</a></li>
-                                                            <li><a href="#">Sosyal Medya Yönetimi</a></li>
-                                                            <li><a href="#">Grafik Tasarım Hizmetleri</a></li>
-                                                            <li><a href="#">Mobil Uygulama Çözümleri</a></li>
+															@foreach ($sharedContent['Services'] as $service)
+                                                            <li><a href="{{route('service',$service->slug)}}">{{$service->title}}</a></li>
+															@endforeach
 													    </ul>
                                                     </li>
-													<li class="last-item menu-item"><a href="#">Referanslarımız</a></li>
-													<li><a href="#">İletişim</a></li>
+													<li class="last-item menu-item"><a href="{{route('page','referanslarimiz')}}">Referanslarımız</a></li>
+													<li class="last-item menu-item"><a href="{{route('page','blog')}}">Blog</a></li>
+													<li><a href="{{route('page','iletisim')}}">İletişim</a></li>
 												</ul>
 											</nav>
 										</div>
@@ -102,10 +100,7 @@
 					    </div>
 					    <div class="rs-offcanvas-inner">
 					        <div class="canvas-logo">
-					            <a href="{{route('home')}}"><img src="/assets/images/logo.svg" alt="logo"></a>
-					        </div>
-					        <div class="offcanvas-text">
-					            <p>Sreach Agency olarak, dijital dünyadaki tüm ihtiyaçlarınızı karşılayacak dinamik çözümler sunuyoruz! 2016 yılından bu yana gelişen ve büyüyen ekibimiz, 360 derece hizmet sunma kapasitesine sahiptir.</p>
+					            <a href="{{route('home')}}"><img src="{{asset(setting('site.logo'))}}" alt="logo"></a>
 					        </div>
 					        <div class="canvas-contact">
 					            <div class="address-area">
@@ -151,21 +146,18 @@
 					    </div>
 					    <ul class="nav-menu">
 					    	<li class="menu-item current-menu-item"><a href="{{route('home')}}">Anasayfa</a></li>
-                            <li class="menu-item"><a href="#">Biz Kimiz</a></li>
-                            <li class="menu-item-has-children">
-                                <a href="#">Neler Yapıyoruz?</a>
-                                <ul class="sub-menu">
-                                    <li><a href="#">Web Sitesi Tasarımları</a></li>
-                                    <li><a href="#">E-Ticaret Web Sitesi</a></li>
-                                    <li><a href="#">Web Uygulama Yazılımları</a></li>
-                                    <li><a href="#">Dijital Reklam Yönetimi</a></li>
-                                    <li><a href="#">Sosyal Medya Yönetimi</a></li>
-                                    <li><a href="#">Grafik Tasarım Hizmetleri</a></li>
-                                    <li><a href="#">Mobil Uygulama Çözümleri</a></li>
-                                </ul>
-                            </li>
-                            <li class="last-item menu-item"><a href="#">Referanslarımız</a></li>
-                            <li><a href="#">İletişim</a></li>
+							<li class="menu-item"><a href="{{route('page','biz-kimiz')}}">Biz Kimiz</a></li>
+							<li class="menu-item-has-children">
+								<a href="{{route('page','neler-yapiyoruz')}}">Neler Yapıyoruz?</a>
+								<ul class="sub-menu">
+									@foreach ($sharedContent['Services'] as $service)
+										<li><a href="{{route('service',$service->slug)}}">{{$service->title}}</a></li>
+									@endforeach
+								</ul>
+							</li>
+							<li class="last-item menu-item"><a href="{{route('page','referanslarimiz')}}">Referanslarımız</a></li>
+							<li class="last-item menu-item"><a href="{{route('page','blog')}}">Blog</a></li>
+							<li><a href="{{route('page','iletisim')}}">İletişim</a></li>
 					    </ul>
 					    <div class="canvas-contact">
 					          <div class="address-area">
@@ -175,7 +167,12 @@
 					                  </div>
 					                  <div class="info-content">
 					                      <h4 class="title">E-Posta</h4>
-					                      <em><a href="mailto:sreachagency@gmail.com">sreachagency@gmail.com</a></em>
+										  @if (!(empty($sharedContent['Contact']->email1)))
+					                      	<em><a href="mailto:{{$sharedContent['Contact']->email1}}">{{$sharedContent['Contact']->email1}}</a></em>
+										  @endif
+										  @if (!(empty($sharedContent['Contact']->email2)))
+					                      	<em><a href="mailto:{{$sharedContent['Contact']->email2}}">{{$sharedContent['Contact']->email2}}</a></em>
+										  @endif
 					                  </div>
 					              </div>
 					              <div class="address-list">
@@ -184,7 +181,12 @@
 					                  </div>
 					                  <div class="info-content">
 					                      <h4 class="title">Telefon</h4>
-					                      <em>+123 456 78 90</em>
+										  @if (!(empty($sharedContent['Contact']->phone1)))
+					                      <em>{{$sharedContent['Contact']->phone1}}</em>
+										  @endif
+										  @if (!(empty($sharedContent['Contact']->phone2)))
+					                      <em>{{$sharedContent['Contact']->phone2}}</em>
+										  @endif
 					                  </div>
 					              </div>
 					          </div>
@@ -203,47 +205,74 @@
 					<div class="row">
 						<div class="col-lg-6 pr-20 md-pr-15 md-mb-20">
 							<div class="footer-logo mb-85 md-mb-65">
-								<a href="index-2.html"><img src="/assets/images/logo-white.svg" alt=""></a>
+								<a href="{{route('home')}}"><img src="{{asset(setting('site.logo'))}}" alt="{{setting('site.title')}}"></a>
 							</div>
 							<ul class="address-widget">
                                 <li>
                                     <div class="desc">
-                                       <a href="tel:(123) 456 78 90">(123) 456 78 90</a><br>
+										@if (!(empty($sharedContent['Contact']->phone1)))
+                                       		<a href="tel:{{$sharedContent['Contact']->phone1}}">{{$sharedContent['Contact']->phone1}}</a><br>
+									   @endif
+										@if (!(empty($sharedContent['Contact']->phone2)))
+									   		<a href="tel:{{$sharedContent['Contact']	->phone2}}">{{$sharedContent['Contact']->phone2}}</a><br>
+									  	@endif 
                                     </div>
                                 </li>
                                 <li>
                                     <div class="desc">
-                                        <a href="mailto:sreachagency@gmail.com">sreachagency@gmail.com</a>
+										@if (!(empty($sharedContent['Contact']->email1)))
+                                        	<a href="mailto:{{$sharedContent['Contact']->email1}}">{{$sharedContent['Contact']->email1}}</a>
+										@endif
+										@if (!(empty($sharedContent['Contact']->email2)))
+											<a href="mailto:{{$sharedContent['Contact']->email2}}">{{$sharedContent['Contact']->email2}}</a>
+										@endif
                                     </div>
                                 </li> 
                             </ul>
 							<ul class="footer-social md-mb-30">  
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>                     
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>                     
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>                     
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>                     
+								@if (!(empty($sharedContent['Social']->facebook)))
+                                	<li><a href="{{$sharedContent['Social']->facebook}}"><i class="fa fa-facebook"></i></a></li>                     
+								@endif
+								@if (!(empty($sharedContent['Social']->twitter)))
+                                	<li><a href="{{$sharedContent['Social']->twitter}}"><i class="fa fa-twitter"></i></a></li>                     
+								@endif
+								@if (!(empty($sharedContent['Social']->instagram)))
+                                	<li><a href="{{$sharedContent['Social']->instagram}}"><i class="fa fa-instagram"></i></a></li>                     
+								@endif
+								@if (!(empty($sharedContent['Social']->youtube)))
+                                	<li><a href="{{$sharedContent['Social']->youtube}}"><i class="fa fa-youtube"></i></a></li>                     
+								@endif
+								@if (!(empty($sharedContent['Social']->linkedin)))
+                                	<li><a href="{{$sharedContent['Social']->linkedin}}"><i class="fa fa-linkedin"></i></a></li>                     
+								@endif
+								@if (!(empty($sharedContent['Social']->pinterest)))
+                                	<li><a href="{{$sharedContent['Social']->pinterest}}"><i class="fa fa-pinterest"></i></a></li>                     
+								@endif
+								@if (!(empty($sharedContent['Social']->behance)))
+                                	<li><a href="{{$sharedContent['Social']->behance}}"><i class="fa fa-behance"></i></a></li>                     
+								@endif
+								@if (!(empty($sharedContent['Social']->medium)))
+                                	<li><a href="{{$sharedContent['Social']->medium}}"><i class="fa fa-medium"></i></a></li>                     
+								@endif
                           	</ul>
 						</div>
 						<div class="col-lg-3 md-mb-10 pl-90 md-pl-15">
 							<h3 class="footer-title">Neler Yapıyoruz?</h3>
 							<ul class="site-map">
-                                <li><a href="#">Web Sitesi Tasarımları</a></li>
-                                <li><a href="#">E-Ticaret Web Sitesi</a></li>
-                                <li><a href="#">Web Uygulama Yazılımları</a></li>
-                                <li><a href="#">Dijital Reklam Yönetimi</a></li>
-                                <li><a href="#">Sosyal Medya Yönetimi</a></li>
-                                <li><a href="#">Grafik Tasarım Hizmetleri</a></li>
-                                <li><a href="#">Mobil Uygulama Çözümleri</a></li>
+								@foreach ($sharedContent['Services'] as $service)
+                                	<li><a href="{{route('service',$service->slug)}}">{{$service->title}}</a></li>
+								@endforeach
                             </ul>
 						</div>
 						<div class="col-lg-3 md-mb-10 pl-80 md-pl-15">
 							<h3 class="footer-title">Hızlı Erişim</h3>
 							<ul class="site-map">
-                                <li><a href="#">Anasayfa</a></li>
-                                <li><a href="#">Biz Kimiz?</a></li>
-                                <li><a href="#">Neler Yapıyoruz?</a></li>
-                                <li><a href="#">Referanslarımız</a></li>
-                                <li><a href="#">İletişim</a></li>
+                                <li><a href="{{route('home')}}">Anasayfa</a></li>
+                                <li><a href="{{route('page','biz-kimiz')}}">Biz Kimiz?</a></li>
+                                <li><a href="{{route('page','neler-yapiyoruz')}}">Neler Yapıyoruz?</a></li>
+                                <li><a href="{{route('page','referanslarimiz')}}">Referanslarımız</a></li>
+                                <li><a href="{{route('page','blog')}}">Blog</a></li>
+                                <li><a href="{{route('page','iletisim')}}">İletişim</a></li>
                             </ul>
 						</div>
 					</div>
@@ -255,7 +284,7 @@
                     	<div class="row y-middle">
                     	    <div class="col-lg-6">
                     	        <div class="copyright text-lg-start text-center">
-                    	            <p>© 2023 Sreach Digital Agency</p>
+                    	            <p>© 2023 {{setting('site.title')}} Agency</p>
                     	        </div>
                     	    </div>
                     	</div>

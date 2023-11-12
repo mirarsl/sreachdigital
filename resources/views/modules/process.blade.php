@@ -11,9 +11,9 @@
                     @foreach ($module->data()->sortBy('ordering') as $process)
                         <div class="card">
                             <div class="card-header">
-                                <a class="card-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapse-{{$process->id}}" aria-expanded="true">{{$process->title}}</a>
+                                <a class="card-link {{$loop->index != 0 ? 'collapsed':''}}" href="#" data-bs-toggle="collapse" data-bs-target="#collapse-{{$process->id}}" aria-expanded="true">{{$process->title}}</a>
                             </div>
-                            <div id="collapse-{{$process->id}}" class="collapse" data-bs-parent="#accordion">
+                            <div id="collapse-{{$process->id}}" class="collapse {{$loop->index == 0 ? 'show':''}}" data-bs-parent="#accordion">
                                 <div class="card-body">{{$process->text}}</div>
                             </div>
                         </div>
@@ -23,7 +23,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="faq-img">
-                    <img src="/assets/images/process.svg" alt="">
+                    <img src="{{asset($module->image)}}" alt="Process">
                 </div>
             </div>
        </div>

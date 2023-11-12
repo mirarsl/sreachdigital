@@ -12,7 +12,7 @@
                    </div>
                    <div class="col-lg-6">
                        <div class="about-img">
-                           <img class="js-tilt" src="{{asset($Page->image)}}" alt="{{$Page->title}}">
+                        <a data-fancybox="g1" href="{{asset($Page->image)}}"><img class="js-tilt" src="{{asset($Page->image)}}" alt="{{$Page->title}}"></a>
                        </div>
                    </div>
                </div>
@@ -24,20 +24,7 @@
         </div>
     </div>
 </div>
-@if (!(empty($Page->data())))
-    @if (View::exists('modules.' . $Page->view))
-        @include('modules.' . $Page->view, ['module' => $Page])
-    @else
-        @include('modules.list', ['module' => $Page])
+    @if (View::exists('modules.details'))
+        @include('modules.details', ['module' => $Page])
     @endif
-@endif
-@isset($Page->modules)
-@foreach ($Page->modules as $module)
-    @if (View::exists('modules.' . $module->slug))
-        @include('modules.' . $module->slug, ['module' => $module])
-    @else
-        @include('modules.default', ['module' => $module])
-    @endif
-@endforeach
-@endisset
 @endsection

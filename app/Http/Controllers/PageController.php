@@ -2,8 +2,16 @@
 
 namespace App\Http\Controllers;
 
+use App\Blog;
+use App\Message;
 use App\Page;
+use App\Project;
+use App\Service;
 use Illuminate\Http\Request;
+
+use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Mail;
+
 
 class PageController extends Controller
 {
@@ -12,5 +20,66 @@ class PageController extends Controller
         if(empty($Page)) abort(404);
 
         return view("pages.template", compact("Page"));
+    }
+
+    function detail($slug){
+        $route_name = \Route::currentRouteName();
+        if(method_exists($this,$route_name)){
+            $Page = $this->$route_name($slug);
+        }
+        if(empty($Page)) abort(404);
+
+        return view("pages.details", compact("Page"));
+    }
+    function service($slug){
+        $Service = Service::where("slug",$slug)->first();
+        return $Service;
+    }
+    function project($slug){
+        $Project = Project::where("slug",$slug)->first();
+        return $Project;
+    }
+    function blog($slug){
+        $Blog = Blog::where("slug",$slug)->first();
+        return $Blog;
+    }
+
+    function store(Request $request){
+        $validator = Validator::make($request->all(),[
+            "type" => "required",
+            "json.*" => "required",
+            "json.email" => "required|email",
+        ],
+        [
+            "required" => "Lütfen zorunlu alanları doldurunuz",
+            "email" => "Lütfen e-posta alanını geçerli bir e-posta adresi ile giriniz",
+        ]);
+
+        if($validator->fails()){
+            return redirect()->route('page','iletisim')->withErrors($validator)->withInput(request()->all());
+        }
+
+        $validated = $validator->validate();
+
+        $Store = new Message();
+        $Store->type = $validated['type'];
+        $Store->json = json_encode($validated['json']);
+
+        if($Store->save()){
+            if(setting('site.mail') !== null){
+                // SMTP Ayarları
+                Mail::send('mail.default', $validated, function ($msg,$validated){
+                    $msg->from(env('MAIL_USERNAME'),setting('site.title'));
+                    $msg->to(setting('site.mail'), setting('site.title'));
+                    $msg->subject($validated['type']);
+                });
+            }
+
+
+            return redirect()->route('page','iletisim')->with('status', 'success')->with('message', 'Mesajınız başarılı bir şekilde tarafımıza iletilmiştir');
+        }else{
+            return redirect()->route('page','iletisim')->with('status' , 'danger')->with('message' , 'Mesajınız iletilirken bir hata ile karşılaşmıştır.');
+        }
+
     }
 }
