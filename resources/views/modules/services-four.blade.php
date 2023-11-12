@@ -5,6 +5,7 @@
             <div class="col-lg-5 pr-18 md-pr-15 md-mb-50">
                 <div class="sec-title2">
                     <span class="sub-text">{{$module->title}}</span>
+                    <h2 class="title title8">{{$module->title}}</h2>
                     {!!$module->text!!}
                     <div class="btn-part">
                         <a class="readon red get-bdr" href="{{$module->url}}">{{$module->button}}</a>
