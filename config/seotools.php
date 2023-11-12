@@ -14,7 +14,7 @@ return [
             'description'  => false, // set false to total remove
             'separator'    => ' | ',
             'keywords'     => false,
-            'canonical'    => Url()->full(),
+            'canonical'    => false,
             'robots'       => 'all', // Set to 'all', 'none' or any combination of index/noindex and follow/nofollow
         ],
         /*

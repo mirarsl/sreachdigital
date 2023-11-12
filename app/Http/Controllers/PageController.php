@@ -22,6 +22,7 @@ class PageController extends Controller
 
         SEOTools::setTitle($Page->meta_title ?? $Page->title);
         SEOTools::setDescription($Page->meta_desc);
+        SEOTools::setCanonical(url()->full());
         SEOTools::opengraph()->setTitle(SEOTools::getTitle());
         SEOTools::opengraph()->setUrl(url()->full());
         SEOTools::opengraph()->addImage(url(asset($Page->image)));
@@ -43,6 +44,7 @@ class PageController extends Controller
 
         SEOTools::setTitle($Page->meta_title ?? $Page->title);
         SEOTools::setDescription($Page->meta_desc);
+        SEOTools::setCanonical(url()->full());
         SEOTools::opengraph()->setTitle(SEOTools::getTitle());
         SEOTools::opengraph()->setUrl(url()->full());
         SEOTools::opengraph()->addImage(url(asset($Page->image)));
