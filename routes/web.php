@@ -17,6 +17,9 @@ Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
 
+Route::get('sitemap.xml', [PageController::class, 'sitemap'])->name('sitemap');
+
+
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('{slug}', [PageController::class,'index'])->name('page');
 Route::get('hizmet/{slug}', [PageController::class,'detail'])->name('service');

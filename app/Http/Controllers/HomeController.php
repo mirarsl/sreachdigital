@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Page;
 use App\Service;
+use Artesaos\SEOTools\Facades\SEOMeta;
 use Artesaos\SEOTools\Facades\SEOTools;
 use Illuminate\Http\Request;
 
@@ -16,6 +17,7 @@ class HomeController extends Controller
         SEOTools::setTitle($Page->meta_title ?? $Page->title);
         SEOTools::setDescription($Page->meta_desc);
         SEOTools::setCanonical(url()->full());
+        SEOMeta::addKeyword(explode(',',$Page->meta_tags));
         SEOTools::opengraph()->setUrl(url()->full());
         SEOTools::opengraph()->addImage(url(asset(setting('site.logo'))));
         SEOTools::opengraph()->addProperty('type', 'articles');

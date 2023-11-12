@@ -197,7 +197,7 @@ h6 {
   background-color: #1D1C2D;
 }
 .purple-bg {
-  background-color: #6721B5;
+  background-color: #396ea9;
 }
 .purple-bg2 {
   background-color: #4f4bff;
@@ -5623,16 +5623,22 @@ body .search-modal .close:hover {
   position: relative;
   z-index: 1;
   overflow: hidden;
+  background: white;
 }
 .rs-project.project-style1 .project-item .project-img a img {
   border-radius: 40px 40px 0px 0px;
-  transform: scale(1.1);
   transition: 0.4s;
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
 }
 .rs-project.project-style1 .project-item .project-content {
-  padding: 40px 40px 40px 40px;
+  padding: 30px;
   border-radius: 0px 0px 40px 40px;
   background: #ffffff;
+  min-height: 130px;
+  display: flex;
+  align-items: center;
 }
 .rs-project.project-style1 .project-item .project-content .category {
   font-size: 15px;
