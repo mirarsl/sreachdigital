@@ -22,6 +22,7 @@
 		<link rel="stylesheet" type="text/css" href="/assets/css/style.css"> 
 		<link rel="stylesheet" type="text/css" href="/assets/css/responsive.css">
 		@stack('links')
+		{!! setting('site.header_libs') !!}
 	</head>
 	<body class="defult-home">
 		
@@ -136,28 +137,28 @@
 					            </div>
 					            <ul class="social">
 					                @if (!(empty($sharedContent['Social']->facebook)))
-										<li><a href="{{$sharedContent['Social']->facebook}}"><i class="fa fa-facebook"></i></a></li>                     
+										<li><a target="_blank" href="{{$sharedContent['Social']->facebook}}"><i class="fa fa-facebook"></i></a></li>                     
 									@endif
 									@if (!(empty($sharedContent['Social']->twitter)))
-										<li><a href="{{$sharedContent['Social']->twitter}}"><i class="fa fa-twitter"></i></a></li>                     
+										<li><a target="_blank" href="{{$sharedContent['Social']->twitter}}"><i class="fa fa-twitter"></i></a></li>                     
 									@endif
 									@if (!(empty($sharedContent['Social']->instagram)))
-										<li><a href="{{$sharedContent['Social']->instagram}}"><i class="fa fa-instagram"></i></a></li>                     
+										<li><a target="_blank" href="{{$sharedContent['Social']->instagram}}"><i class="fa fa-instagram"></i></a></li>                     
 									@endif
 									@if (!(empty($sharedContent['Social']->youtube)))
-										<li><a href="{{$sharedContent['Social']->youtube}}"><i class="fa fa-youtube"></i></a></li>                     
+										<li><a target="_blank" href="{{$sharedContent['Social']->youtube}}"><i class="fa fa-youtube"></i></a></li>                     
 									@endif
 									@if (!(empty($sharedContent['Social']->linkedin)))
-										<li><a href="{{$sharedContent['Social']->linkedin}}"><i class="fa fa-linkedin"></i></a></li>                     
+										<li><a target="_blank" href="{{$sharedContent['Social']->linkedin}}"><i class="fa fa-linkedin"></i></a></li>                     
 									@endif
 									@if (!(empty($sharedContent['Social']->pinterest)))
-										<li><a href="{{$sharedContent['Social']->pinterest}}"><i class="fa fa-pinterest"></i></a></li>                     
+										<li><a target="_blank" href="{{$sharedContent['Social']->pinterest}}"><i class="fa fa-pinterest"></i></a></li>                     
 									@endif
 									@if (!(empty($sharedContent['Social']->behance)))
-										<li><a href="{{$sharedContent['Social']->behance}}"><i class="fa fa-behance"></i></a></li>                     
+										<li><a target="_blank" href="{{$sharedContent['Social']->behance}}"><i class="fa fa-behance"></i></a></li>                     
 									@endif
 									@if (!(empty($sharedContent['Social']->medium)))
-										<li><a href="{{$sharedContent['Social']->medium}}"><i class="fa fa-medium"></i></a></li>                     
+										<li><a target="_blank" href="{{$sharedContent['Social']->medium}}"><i class="fa fa-medium"></i></a></li>                     
 									@endif
 					            </ul>
 					        </div>
@@ -260,28 +261,28 @@
                             </ul>
 							<ul class="footer-social md-mb-30">  
 								@if (!(empty($sharedContent['Social']->facebook)))
-                                	<li><a href="{{$sharedContent['Social']->facebook}}"><i class="fa fa-facebook"></i></a></li>                     
+                                	<li><a target="_blank" href="{{$sharedContent['Social']->facebook}}"><i class="fa fa-facebook"></i></a></li>                     
 								@endif
 								@if (!(empty($sharedContent['Social']->twitter)))
-                                	<li><a href="{{$sharedContent['Social']->twitter}}"><i class="fa fa-twitter"></i></a></li>                     
+                                	<li><a target="_blank" href="{{$sharedContent['Social']->twitter}}"><i class="fa fa-twitter"></i></a></li>                     
 								@endif
 								@if (!(empty($sharedContent['Social']->instagram)))
-                                	<li><a href="{{$sharedContent['Social']->instagram}}"><i class="fa fa-instagram"></i></a></li>                     
+                                	<li><a target="_blank" href="{{$sharedContent['Social']->instagram}}"><i class="fa fa-instagram"></i></a></li>                     
 								@endif
 								@if (!(empty($sharedContent['Social']->youtube)))
-                                	<li><a href="{{$sharedContent['Social']->youtube}}"><i class="fa fa-youtube"></i></a></li>                     
+                                	<li><a target="_blank" href="{{$sharedContent['Social']->youtube}}"><i class="fa fa-youtube"></i></a></li>                     
 								@endif
 								@if (!(empty($sharedContent['Social']->linkedin)))
-                                	<li><a href="{{$sharedContent['Social']->linkedin}}"><i class="fa fa-linkedin"></i></a></li>                     
+                                	<li><a target="_blank" href="{{$sharedContent['Social']->linkedin}}"><i class="fa fa-linkedin"></i></a></li>                     
 								@endif
 								@if (!(empty($sharedContent['Social']->pinterest)))
-                                	<li><a href="{{$sharedContent['Social']->pinterest}}"><i class="fa fa-pinterest"></i></a></li>                     
+                                	<li><a target="_blank" href="{{$sharedContent['Social']->pinterest}}"><i class="fa fa-pinterest"></i></a></li>                     
 								@endif
 								@if (!(empty($sharedContent['Social']->behance)))
-                                	<li><a href="{{$sharedContent['Social']->behance}}"><i class="fa fa-behance"></i></a></li>                     
+                                	<li><a target="_blank" href="{{$sharedContent['Social']->behance}}"><i class="fa fa-behance"></i></a></li>                     
 								@endif
 								@if (!(empty($sharedContent['Social']->medium)))
-                                	<li><a href="{{$sharedContent['Social']->medium}}"><i class="fa fa-medium"></i></a></li>                     
+                                	<li><a target="_blank" href="{{$sharedContent['Social']->medium}}"><i class="fa fa-medium"></i></a></li>                     
 								@endif
                           	</ul>
 						</div>
