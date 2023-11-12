@@ -4,7 +4,7 @@
         <div class="row y-middle">
             <div class="col-lg-5 pr-18 md-pr-15 md-mb-50">
                 <div class="sec-title2">
-                    <span class="sub-text">{{$module->title}}</span>
+                    <span class="sub-text">{{$module->top}}</span>
                     <h2 class="title title8 mb-3">{{$module->title}}</h2>
                     {!!$module->text!!}
                     <div class="btn-part">
