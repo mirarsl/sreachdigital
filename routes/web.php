@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('{slug}', [PageController::class,'index'])->name('page');
@@ -22,6 +25,3 @@ Route::get('blog/{slug}', [PageController::class,'detail'])->name('blog');
 
 Route::post('store', [PageController::class, 'store'])->name('store');
 
-Route::group(['prefix' => 'admin'], function () {
-    Voyager::routes();
-});
