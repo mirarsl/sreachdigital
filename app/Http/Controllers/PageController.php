@@ -70,12 +70,19 @@ class PageController extends Controller
     function store(Request $request){
         $validator = Validator::make($request->all(),[
             "type" => "required",
-            "json.*" => "required",
             "json.email" => "required|email",
+            "json.name" => "required",
+            "json.phone" => "required",
+            "json.company" => "required",
+            "json.message" => "required",
         ],
         [
-            "required" => "Lütfen zorunlu alanları doldurunuz",
-            "email" => "Lütfen e-posta alanını geçerli bir e-posta adresi ile giriniz",
+            "json.name.required" => "İsim alanı zorunludur. Lütfen zorunlu alanı doldurunuz",
+            "json.email.required" => "E-posta alanı zorunludur. Lütfen zorunlu alanı doldurunuz",
+            "json.email.email" => "Lütfen geçerli bir e-posta adresi giriniz",
+            "json.phone.required" => "Telefon alanı zorunludur. Lütfen zorunlu alanı doldurunuz",
+            "json.company.required" => "Firma alanı zorunludur. Lütfen zorunlu alanı doldurunuz",
+            "json.message.required" => "Mesaj alanı zorunludur. Lütfen zorunlu alanı doldurunuz",
         ]);
 
         if($validator->fails()){
@@ -91,7 +98,7 @@ class PageController extends Controller
         if($Store->save()){
             if(setting('site.mail') !== null){
                 // SMTP Ayarları
-                Mail::send('mail.default', $validated, function ($msg,$validated){
+                Mail::send('mail.default', $validated, function ($msg) use ($validated){
                     $msg->from(env('MAIL_USERNAME'),setting('site.title'));
                     $msg->to(setting('site.mail'), setting('site.title'));
                     $msg->subject($validated['type']);

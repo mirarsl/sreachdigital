@@ -1,6 +1,6 @@
 <br>
 @php
-    $data = json_decode($content);
+    $data = json_decode(json_encode($json));
     $lang = [
         'name' => "İsim",
         "email" => 'E-Posta',
