@@ -5638,7 +5638,8 @@ body .search-modal .close:hover {
   background: #ffffff;
   min-height: 130px;
   display: flex;
-  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .rs-project.project-style1 .project-item .project-content .category {
   font-size: 15px;
